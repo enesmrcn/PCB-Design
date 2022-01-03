@@ -1,0 +1,421 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<style type="text/css">
+		h1, h2, h3, h4, h5, h6 {
+			font-family : segoe ui;
+			color : black;
+			background-color : #EDE7D9;
+			padding: 0.3em;
+		}
+
+		h1 {
+			font-size: 1.2em;
+		}		
+
+		h2 {
+			font-size: 1.2em;
+		}
+
+		body {
+			font-family : segoe ui;
+		}
+
+		td, th {
+			padding: 0.5em;
+			text-align : left;
+			width: 10em;
+		}
+		th {
+			background-color : #EEEEEE;
+
+		}
+		th.column1, td.column1 {
+			text-align: left;
+			width : auto;
+		}
+		table {
+			width : 100%;
+			font-size: 0.9em;
+		}
+
+		.DRC_summary_header {
+			padding-bottom : 0.1em;
+			border : 0px solid black;
+			width: 100%;
+			align: left;
+		}
+
+		.DRC_summary_header_col1,
+		.DRC_summary_header_col2, 
+		.DRC_summary_header_col3 {
+			color : black;
+			font-size:100%;
+			padding : 0em;
+			padding-top : 0.2em;
+			padding-bottom 0.2em;
+			border : 0px solid black;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.DRC_summary_header_col1 {
+			font-weight: bold;
+			width: 8em;
+		}
+
+		.DRC_summary_header_col2 {
+			width: 0.1em;
+		
+		}
+
+		.DRC_summary_header_col3 {
+			width : auto;
+		}
+
+		.header_holder {
+		    Width = 100%;
+		    border = 0px solid green;
+		    padding = 0;
+		}
+
+
+		.front_matter, .front_matter_column1, .front_matter_column2, .front_matter_column3
+		{
+			left : 0;
+			top : 0;
+			padding: 0em;
+			padding-top : 0.1em;
+			border : 0px solid black;
+			width : 100%;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.front_matter_column1 {
+			width : 8em;
+			font-weight: bold;
+		}
+
+		.front_matter_column2 {
+			width: 0.1em;
+		}
+
+		.front_matter_column3 {
+			width : auto;
+		}
+
+		.total_column1, .total_column {
+			font-weight : bold;
+		}
+		.total_column1 {
+			text-align : left;
+		}
+		.warning, .error {
+			color : red;
+			font-weight : bold;
+		}
+		tr.onmouseout_odd {
+			background-color : #white;
+		}
+		tr.onmouseout_even { 
+			background-color : #FAFAFA;
+		}
+		tr.onmouseover_odd, tr.onmouseover_even { 
+			background-color : #EEEEEE;
+		} 
+		a:link, a:visited, .q a:link,.q a:active,.q {
+			color: #21489e; 
+		}
+		a:link.callback, a:visited.callback { 
+			color: #21489e;
+		}
+		a:link.customize, a:visited.customize {
+			color: #C0C0C0;
+			position: absolute; 
+			right: 10px;
+		}	
+		p.contents_level1 {
+			font-weight : bold;
+			font-size : 110%;
+			margin : 0.5em;
+		}
+		p.contents_level2 {
+			position : relative;
+			left : 20px;
+			margin : 0.5em;
+		}
+	</style><script type="text/javascript">
+		function coordToMils(coord) {
+			var number = coord / 10000;
+			
+			if (number != number.toFixed(3))
+				number = number.toFixed(3);
+
+			return number + 'mil'
+		}
+
+		function coordToMM(coord) {
+			var number = 0.0254 * coord / 10000;
+			
+			if (number != number.toFixed(4))
+				number = number.toFixed(4);
+			
+			return number + 'mm'
+		}
+	
+		function convertCoord(coordNode, units) {
+			for (var i = 0; i < coordNode.childNodes.length; i++) {
+				coordNode.removeChild(coordNode.childNodes[i]);
+			}
+
+			var coord = coordNode.getAttribute('value');
+			if (coord != null) {
+				if (units == 'mm') {
+					textNode = document.createTextNode(coordToMM(coord));
+					coordNode.appendChild(textNode);
+				} else if (units == 'mil') {
+					textNode = document.createTextNode(coordToMils(coord));		
+					coordNode.appendChild(textNode);	
+				}
+			}
+		}
+	
+		function convertUnits(unitNode, units) {
+			for (var i = 0; i < unitNode.childNodes.length; i++) {
+				unitNode.removeChild(unitNode.childNodes[i]);		
+			}
+		
+			textNode = document.createTextNode(units); 
+			unitNode.appendChild(textNode);
+		}
+	
+		function changeUnits(radio_input, units) {
+			if (radio_input.checked) {
+			
+				var elements = document.getElementsByName('coordinate');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertCoord(elements[i], units);
+					}
+				}
+	
+				var elements = document.getElementsByName('units');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertUnits(elements[i], units);
+					}
+				}
+			}
+		}
+	</script><title>Design Rule Verification Report</title>
+</head>
+<body onload=""><img ALT="Altium" src="
+			file://C:\Users\Public\Documents\Altium\AD21\Templates\AD_logo.png
+		"><h1>Design Rule Verification Report</h1>
+<table class="header_holder">
+<td class="column1">
+<table class="front_matter">
+<tr class="front_matter">
+<td class="front_matter_column1">Date:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">31/07/2021</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">08:02:24</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Elapsed Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">00:00:02</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Filename:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3"><a href="file:///C:\Users\Public\Documents\Altium\Projects\Neo-7M GNSS Evaluation Board\NEO7M_EVAL.PcbDoc" class="file"><acronym title="C:\Users\Public\Documents\Altium\Projects\Neo-7M GNSS Evaluation Board\NEO7M_EVAL.PcbDoc">C:\Users\Public\Documents\Altium\Projects\Neo-7M GNSS Evaluation Board\NEO7M_EVAL.PcbDoc</acronym></a></td>
+</tr>
+</table>
+</td>
+<td class="column2">
+<table class="DRC_summary_header">
+<tr>
+<td class="DRC_summary_header_col1">Warnings:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3">0</td></tr>
+<tr>
+<td class="DRC_summary_header_col1">Rule Violations:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3" style="color : red">27</td></tr>
+</table>
+</td>
+</table><a name="IDZXYDGE4JSDNQCK4DQSOTSNWI5DKWOBE2YWDJGTN2PUEN1SW4QAC"><h2>Summary</h2></a><table>
+<tr>
+<th class="column1">Warnings</th>
+<th class="column2">Count</th>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">0</td>
+</tr>
+</table><br><table>
+<tr>
+<th class="column1">Rule Violations</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDAZMADIK1ZZ2ZHU0UQHICVM0N3NBV5UBYH2UXFGIUMWQA5Z43K4CB">Clearance Constraint (Gap=0.178mm) (All),(All)</a></td>
+<td class="column2">3</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDSDMNLMJHDTL2DQ2G4EIKLXKU3KXKNIKHLV31BGJNESAQTE4FSMVK">Short-Circuit Constraint (Allowed=No) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDVNO1EWVMMIXWGHBOA14WPSVQ2PDUNWSMKQA25TDNELVMSEGZQZBN">Un-Routed Net Constraint ( (All) )</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDXZUWAZWGQD5KDW1WDYPHJRIODOEB22LM4F3AUQOFSCCWQNRPWRC">Modified Polygon (Allow modified: No), (Allow shelved: No)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID10XMQOOP13UWG2FKMAE4P2E3MDCVCDCZKDICGBFZC3EFORSKY0IB">Width Constraint (Min=0.508mm) (Max=0.508mm) (Preferred=0.508mm) (InNet('NetA1_SIG'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDBR0X1EHP54FOBL0BM2S1JLJGFO3VGXLMPHH4CWEZIIGESPXULHDC">Width Constraint (Min=0.178mm) (Max=2.54mm) (Preferred=0.254mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDFDF1VO1RGA3TCUE4LO30AC4TWLP3NICW14FAT0OWNJFNXZ53QEGG">Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID0GNZBZ0MIWUUN2GE1FE0ZRZVLX2Y0CJHNQMC2MRGAUAYB2YUYHJ">Hole Size Constraint (Min=0.2mm) (Max=6.3mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID2YMQ2XO5ZI35KKA3HDHW1K1WOEKDXTQJIRRHRFGXEPY2ZM5F4DCO">Hole To Hole Clearance (Gap=0.254mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDZLXHGHBLLZBZJNF0XQ1K0NEEGB31DGN1IOA0SMB2X1UCOHMOGARI">Minimum Solder Mask Sliver (Gap=0.05mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID1G3E0HPLRWZKGI30TE1BPH4QGBCSNKDTSHI032KREZLN4O5V3DGO">Silk To Solder Mask (Clearance=0.1mm) (IsPad),(All)</a></td>
+<td class="column2">11</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDTOZYD3CX2VB4EPRKD04FLBQ3AEOIJ4OZCXTLYM0BXDPJD22QRCE">Silk to Silk (Clearance=0.1mm) (All),(All)</a></td>
+<td class="column2">13</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDY1ZOFXIPQ1PNIW0NUW4YG1UT4FYJAP1SM2RI3CKSZQPM1L1JCNVL">Net Antennae (Tolerance=0mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDALHLFUI1LH1ZMV1IAZECXRYUCJJKUSL5K2BCXENCIDAGSCM1VEJL">Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">27</td>
+</tr>
+</table><br><a name="IDAZMADIK1ZZ2ZHU0UQHICVM0N3NBV5UBYH2UXFGIUMWQA5Z43K4CB"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Clearance Constraint (Gap=0.178mm) (All),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\Neo-7M GNSS Evaluation Board\NEO7M_EVAL.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4370.474mil|Location2.X=4376.14mil|Location1.Y=2514.765mil|Location2.Y=2520.432mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\Neo-7M GNSS Evaluation Board\NEO7M_EVAL.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4370.474mil|Location2.X=4376.14mil|Location1.Y=2514.765mil|Location2.Y=2520.432mil|Absolute=True">Clearance Constraint: (Collision &lt; 0.178mm) Between Pad A1-GND(35.604mm,14.95mm) on Top Layer And Region (0 hole(s)) Keep-Out Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\Neo-7M GNSS Evaluation Board\NEO7M_EVAL.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4370.474mil|Location2.X=4376.14mil|Location1.Y=2589.575mil|Location2.Y=2595.241mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\Neo-7M GNSS Evaluation Board\NEO7M_EVAL.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4370.474mil|Location2.X=4376.14mil|Location1.Y=2589.575mil|Location2.Y=2595.241mil|Absolute=True">Clearance Constraint: (Collision &lt; 0.178mm) Between Pad A1-GND(35.604mm,17.9mm) on Top Layer And Region (0 hole(s)) Keep-Out Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\Neo-7M GNSS Evaluation Board\NEO7M_EVAL.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4287.797mil|Location2.X=4293.463mil|Location1.Y=2532.482mil|Location2.Y=2538.148mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\Neo-7M GNSS Evaluation Board\NEO7M_EVAL.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4287.797mil|Location2.X=4293.463mil|Location1.Y=2532.482mil|Location2.Y=2538.148mil|Absolute=True">Clearance Constraint: (Collision &lt; 0.178mm) Between Pad A1-SIG(34.079mm,16.425mm) on Top Layer And Region (0 hole(s)) Keep-Out Layer </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="ID1G3E0HPLRWZKGI30TE1BPH4QGBCSNKDTSHI032KREZLN4O5V3DGO"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Silk To Solder Mask (Clearance=0.1mm) (IsPad),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\Neo-7M GNSS Evaluation Board\NEO7M_EVAL.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4098.428mil|Location2.X=4102.052mil|Location1.Y=2048.726mil|Location2.Y=2052.351mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\Neo-7M GNSS Evaluation Board\NEO7M_EVAL.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4098.428mil|Location2.X=4102.052mil|Location1.Y=2048.726mil|Location2.Y=2052.351mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.1mm) Between Arc (29.615mm,3.483mm) on Top Overlay And Pad D2-2(30.247mm,4.078mm) on Top Layer [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\Neo-7M GNSS Evaluation Board\NEO7M_EVAL.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3317.178mil|Location2.X=3320.803mil|Location1.Y=2290.426mil|Location2.Y=2294.051mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\Neo-7M GNSS Evaluation Board\NEO7M_EVAL.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3317.178mil|Location2.X=3320.803mil|Location1.Y=2290.426mil|Location2.Y=2294.051mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.1mm) Between Pad BAT1-1(10.426mm,9.271mm) on Top Layer And Text "C1" (9.391mm,9.085mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\Neo-7M GNSS Evaluation Board\NEO7M_EVAL.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3215.435mil|Location2.X=3219.06mil|Location1.Y=2295.674mil|Location2.Y=2299.298mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\Neo-7M GNSS Evaluation Board\NEO7M_EVAL.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3215.435mil|Location2.X=3219.06mil|Location1.Y=2295.674mil|Location2.Y=2299.298mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.1mm) Between Pad BAT1-2(6.476mm,10.721mm) on Top Layer And Text "C5" (7.206mm,9.085mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\Neo-7M GNSS Evaluation Board\NEO7M_EVAL.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4187.367mil|Location2.X=4192.554mil|Location1.Y=2285.508mil|Location2.Y=2290.695mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\Neo-7M GNSS Evaluation Board\NEO7M_EVAL.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4187.367mil|Location2.X=4192.554mil|Location1.Y=2285.508mil|Location2.Y=2290.695mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.084mm &lt; 0.1mm) Between Pad C4-3(32.302mm,9.943mm) on Top Layer And Text "R2" (31.717mm,8.729mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.084mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\Neo-7M GNSS Evaluation Board\NEO7M_EVAL.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3305.531mil|Location2.X=3309.155mil|Location1.Y=2205.195mil|Location2.Y=2208.819mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\Neo-7M GNSS Evaluation Board\NEO7M_EVAL.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3305.531mil|Location2.X=3309.155mil|Location1.Y=2205.195mil|Location2.Y=2208.819mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.1mm) Between Pad C5-2(9.147mm,7.478mm) on Top Layer And Text "+" (9.332mm,8.179mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\Neo-7M GNSS Evaluation Board\NEO7M_EVAL.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3381.188mil|Location2.X=3384.812mil|Location1.Y=2588.674mil|Location2.Y=2592.298mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\Neo-7M GNSS Evaluation Board\NEO7M_EVAL.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3381.188mil|Location2.X=3384.812mil|Location1.Y=2588.674mil|Location2.Y=2592.298mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.1mm) Between Pad J1-4(10.837mm,17.178mm) on Multi-Layer And Text "D1" (11.55mm,16.527mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\Neo-7M GNSS Evaluation Board\NEO7M_EVAL.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4198.183mil|Location2.X=4203.37mil|Location1.Y=2397.308mil|Location2.Y=2402.495mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\Neo-7M GNSS Evaluation Board\NEO7M_EVAL.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4198.183mil|Location2.X=4203.37mil|Location1.Y=2397.308mil|Location2.Y=2402.495mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.081mm &lt; 0.1mm) Between Pad L1-2(32.632mm,12.488mm) on Top Layer And Text "C4" (30.873mm,12.086mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.081mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\Neo-7M GNSS Evaluation Board\NEO7M_EVAL.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4183.674mil|Location2.X=4187.298mil|Location1.Y=2116.188mil|Location2.Y=2119.812mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\Neo-7M GNSS Evaluation Board\NEO7M_EVAL.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4183.674mil|Location2.X=4187.298mil|Location1.Y=2116.188mil|Location2.Y=2119.812mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.1mm) Between Pad R2-2(32.222mm,5.728mm) on Top Layer And Text "R1" (31.133mm,5.326mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\Neo-7M GNSS Evaluation Board\NEO7M_EVAL.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4157.693mil|Location2.X=4161.317mil|Location1.Y=2413.832mil|Location2.Y=2417.457mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\Neo-7M GNSS Evaluation Board\NEO7M_EVAL.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4157.693mil|Location2.X=4161.317mil|Location1.Y=2413.832mil|Location2.Y=2417.457mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.1mm) Between Pad R3-1(30.905mm,13.07mm) on Top Layer And Text "C4" (30.873mm,12.086mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\Neo-7M GNSS Evaluation Board\NEO7M_EVAL.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4141.949mil|Location2.X=4145.574mil|Location1.Y=2395.117mil|Location2.Y=2398.741mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\Neo-7M GNSS Evaluation Board\NEO7M_EVAL.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4141.949mil|Location2.X=4145.574mil|Location1.Y=2395.117mil|Location2.Y=2398.741mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.1mm) Between Pad R3-2(30.905mm,12.16mm) on Top Layer And Text "C4" (30.873mm,12.086mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\Neo-7M GNSS Evaluation Board\NEO7M_EVAL.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3379.178mil|Location2.X=3382.803mil|Location1.Y=2361.426mil|Location2.Y=2365.051mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\Neo-7M GNSS Evaluation Board\NEO7M_EVAL.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3379.178mil|Location2.X=3382.803mil|Location1.Y=2361.426mil|Location2.Y=2365.051mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.1mm) Between Pad R4-2(11.947mm,11.403mm) on Top Layer And Text "C2" (10.966mm,10.888mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDTOZYD3CX2VB4EPRKD04FLBQ3AEOIJ4OZCXTLYM0BXDPJD22QRCE"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Silk to Silk (Clearance=0.1mm) (All),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\Neo-7M GNSS Evaluation Board\NEO7M_EVAL.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3352.492mil|Location2.X=3357.679mil|Location1.Y=2353.745mil|Location2.Y=2358.932mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\Neo-7M GNSS Evaluation Board\NEO7M_EVAL.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3352.492mil|Location2.X=3357.679mil|Location1.Y=2353.745mil|Location2.Y=2358.932mil|Absolute=True">Silk To Silk Clearance Constraint: (0.1mm &lt; 0.1mm) Between Arc (8.332mm,11.379mm) on Top Overlay And Text "C2" (10.966mm,10.888mm) on Top Overlay Silk Text to Silk Clearance [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\Neo-7M GNSS Evaluation Board\NEO7M_EVAL.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3224.929mil|Location2.X=3228.553mil|Location1.Y=2264.188mil|Location2.Y=2267.812mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\Neo-7M GNSS Evaluation Board\NEO7M_EVAL.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3224.929mil|Location2.X=3228.553mil|Location1.Y=2264.188mil|Location2.Y=2267.812mil|Absolute=True">Silk To Silk Clearance Constraint: (Collision &lt; 0.1mm) Between Arc (8.445mm,12.005mm) on Top Overlay And Text "C5" (7.206mm,9.085mm) on Top Overlay Silk Text to Silk Clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\Neo-7M GNSS Evaluation Board\NEO7M_EVAL.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3313.148mil|Location2.X=3316.773mil|Location1.Y=2205.195mil|Location2.Y=2208.819mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\Neo-7M GNSS Evaluation Board\NEO7M_EVAL.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3313.148mil|Location2.X=3316.773mil|Location1.Y=2205.195mil|Location2.Y=2208.819mil|Absolute=True">Silk To Silk Clearance Constraint: (Collision &lt; 0.1mm) Between Text "+" (9.332mm,8.179mm) on Top Overlay And Track (9.822mm,6.628mm)(9.822mm,8.278mm) on Top Overlay Silk Text to Silk Clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\Neo-7M GNSS Evaluation Board\NEO7M_EVAL.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3373.188mil|Location2.X=3376.812mil|Location1.Y=2366.674mil|Location2.Y=2370.298mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\Neo-7M GNSS Evaluation Board\NEO7M_EVAL.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3373.188mil|Location2.X=3376.812mil|Location1.Y=2366.674mil|Location2.Y=2370.298mil|Absolute=True">Silk To Silk Clearance Constraint: (Collision &lt; 0.1mm) Between Text "C2" (10.966mm,10.888mm) on Top Overlay And Track (11.347mm,9.102mm)(11.347mm,12.009mm) on Top Overlay Silk Text to Silk Clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\Neo-7M GNSS Evaluation Board\NEO7M_EVAL.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4162.873mil|Location2.X=4166.497mil|Location1.Y=2408.652mil|Location2.Y=2412.277mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\Neo-7M GNSS Evaluation Board\NEO7M_EVAL.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4162.873mil|Location2.X=4166.497mil|Location1.Y=2408.652mil|Location2.Y=2412.277mil|Absolute=True">Silk To Silk Clearance Constraint: (Collision &lt; 0.1mm) Between Text "C4" (30.873mm,12.086mm) on Top Overlay And Track (31.405mm,11.715mm)(31.405mm,13.515mm) on Top Overlay Silk Text to Silk Clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\Neo-7M GNSS Evaluation Board\NEO7M_EVAL.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3411.771mil|Location2.X=3415.395mil|Location1.Y=2557.188mil|Location2.Y=2560.812mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\Neo-7M GNSS Evaluation Board\NEO7M_EVAL.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3411.771mil|Location2.X=3415.395mil|Location1.Y=2557.188mil|Location2.Y=2560.812mil|Absolute=True">Silk To Silk Clearance Constraint: (Collision &lt; 0.1mm) Between Text "D1" (11.55mm,16.527mm) on Top Overlay And Track (12.327mm,15.778mm)(12.327mm,18.578mm) on Top Overlay Silk Text to Silk Clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\Neo-7M GNSS Evaluation Board\NEO7M_EVAL.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4143.931mil|Location2.X=4147.555mil|Location1.Y=2476.683mil|Location2.Y=2480.308mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\Neo-7M GNSS Evaluation Board\NEO7M_EVAL.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4143.931mil|Location2.X=4147.555mil|Location1.Y=2476.683mil|Location2.Y=2480.308mil|Absolute=True">Silk To Silk Clearance Constraint: (Collision &lt; 0.1mm) Between Text "L1" (30.905mm,13.555mm) on Top Overlay And Text "R3" (30.524mm,14.216mm) on Top Overlay Silk Text to Silk Clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\Neo-7M GNSS Evaluation Board\NEO7M_EVAL.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4143.188mil|Location2.X=4146.812mil|Location1.Y=2438.621mil|Location2.Y=2442.245mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\Neo-7M GNSS Evaluation Board\NEO7M_EVAL.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4143.188mil|Location2.X=4146.812mil|Location1.Y=2438.621mil|Location2.Y=2442.245mil|Absolute=True">Silk To Silk Clearance Constraint: (Collision &lt; 0.1mm) Between Text "L1" (30.905mm,13.555mm) on Top Overlay And Track (30.405mm,13.515mm)(31.405mm,13.515mm) on Top Overlay Silk Text to Silk Clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\Neo-7M GNSS Evaluation Board\NEO7M_EVAL.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4162.873mil|Location2.X=4166.497mil|Location1.Y=2438.621mil|Location2.Y=2442.245mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\Neo-7M GNSS Evaluation Board\NEO7M_EVAL.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4162.873mil|Location2.X=4166.497mil|Location1.Y=2438.621mil|Location2.Y=2442.245mil|Absolute=True">Silk To Silk Clearance Constraint: (Collision &lt; 0.1mm) Between Text "L1" (30.905mm,13.555mm) on Top Overlay And Track (31.405mm,11.715mm)(31.405mm,13.515mm) on Top Overlay Silk Text to Silk Clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\Neo-7M GNSS Evaluation Board\NEO7M_EVAL.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4171.416mil|Location2.X=4175.041mil|Location1.Y=2147.674mil|Location2.Y=2151.298mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\Neo-7M GNSS Evaluation Board\NEO7M_EVAL.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4171.416mil|Location2.X=4175.041mil|Location1.Y=2147.674mil|Location2.Y=2151.298mil|Absolute=True">Silk To Silk Clearance Constraint: (Collision &lt; 0.1mm) Between Text "R1" (31.133mm,5.326mm) on Top Overlay And Track (31.622mm,5.123mm)(31.622mm,8.03mm) on Top Overlay Silk Text to Silk Clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\Neo-7M GNSS Evaluation Board\NEO7M_EVAL.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4172.397mil|Location2.X=4177.584mil|Location1.Y=2110.918mil|Location2.Y=2116.105mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\Neo-7M GNSS Evaluation Board\NEO7M_EVAL.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4172.397mil|Location2.X=4177.584mil|Location1.Y=2110.918mil|Location2.Y=2116.105mil|Absolute=True">Silk To Silk Clearance Constraint: (0.078mm &lt; 0.1mm) Between Text "R1" (31.133mm,5.326mm) on Top Overlay And Track (31.622mm,5.123mm)(32.822mm,5.123mm) on Top Overlay Silk Text to Silk Clearance [0.078mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\Neo-7M GNSS Evaluation Board\NEO7M_EVAL.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4173.506mil|Location2.X=4178.693mil|Location1.Y=2285.35mil|Location2.Y=2290.537mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\Neo-7M GNSS Evaluation Board\NEO7M_EVAL.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4173.506mil|Location2.X=4178.693mil|Location1.Y=2285.35mil|Location2.Y=2290.537mil|Absolute=True">Silk To Silk Clearance Constraint: (0.081mm &lt; 0.1mm) Between Text "R2" (31.717mm,8.729mm) on Top Overlay And Track (30.827mm,9.731mm)(31.677mm,9.731mm) on Top Overlay Silk Text to Silk Clearance [0.081mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\Neo-7M GNSS Evaluation Board\NEO7M_EVAL.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4221.851mil|Location2.X=4227.038mil|Location1.Y=2284.867mil|Location2.Y=2290.054mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Public\Documents\Altium\Projects\Neo-7M GNSS Evaluation Board\NEO7M_EVAL.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4221.851mil|Location2.X=4227.038mil|Location1.Y=2284.867mil|Location2.Y=2290.054mil|Absolute=True">Silk To Silk Clearance Constraint: (0.052mm &lt; 0.1mm) Between Text "R2" (31.717mm,8.729mm) on Top Overlay And Track (32.927mm,9.706mm)(33.777mm,9.706mm) on Top Overlay Silk Text to Silk Clearance [0.052mm]</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br></body>
+</html>

@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=NetA1_SIG Pin=R2-1
+Removed Pin From Net: NetName=NetA1_SIG Pin=U1-8
+Added Pin To Net: NetName=NetR2_1 Pin=R2-1
+Added Pin To Net: NetName=NetR2_1 Pin=U1-8
+Added Net: Name=NetR2_1
+Added Member To Class: ClassName=NEO7M_EVAL Member=Component R3 RK73H1ERTTP10R0F
