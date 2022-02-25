@@ -1,0 +1,20 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: NEO7M_EVAL.PcbDoc   24/02/2022  23:46:06
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : NEO7M_EVAL-RoundHoles.TXT
+ASCII SlotHoles File : NEO7M_EVAL-SlotHoles.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      12mil (0.3mm)                                             Round             183       PTH        13.10inch (332.76mm)
+T2      26mil (0.65mm)                                            Slot              2         PTH        0.41inch (10.52mm)
+T3      28mil (0.7mm)                                             Slot              2         PTH        0.70inch (17.70mm)
+T4      43mil (1.1mm)                                             Round             4         PTH        0.40inch (10.16mm)
+T5      59mil (1.5mm)                                             Round             1         PTH        0.00inch (0.00mm)
+T6      67mil (1.7mm)                                             Round             4         PTH        0.60inch (15.24mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              196
+
+Total Processing Time (hh:mm:ss) : 00:00:01

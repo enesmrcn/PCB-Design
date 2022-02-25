@@ -1,0 +1,40 @@
+Altium Designer Pick and Place Locations
+C:\Users\Public\Documents\Altium\Projects\Neo-7M GNSS Evaluation Board\Project Outputs for Neo-7M GNSS Evaluation Board\Pick Place for NEO7M_EVAL.txt
+
+========================================================================================================================
+File Design Information:
+
+Date:       24/02/22
+Time:       23:46
+Revision:   fe176d9e3e5522496f7148bd8fac264aa5cfe05e
+Variant:    No variations
+Units used: mil
+
+Designator Comment             Layer    Footprint            Center-X(mil) Center-Y(mil) Rotation Description                                                                                                               
+U4         MAX2659ELT+T        TopLayer 6-WFDFN              1740.158      389.063       90       "IC AMP LOW NOISE 6-UDFN"                                                                                                 
+J1         60311002114501      TopLayer CONN_SMA             1845.473      163.670       0        "Rf Coax Conn, Sma R/a Jack, 50 Ohm, Pcb Rohs Compliant: Yes"                                                             
+L2         L-07C6N8JV6T        TopLayer IND_0402             1793.308      391.032       270      "Inductor RF Chip Multi-Layer 0.0068uH 5% 100MHz 8Q-Factor Ceramic 0.25A 0.32Ohm DCR 0402 T/R"                            
+C10        C0603C104K5RAC7082  TopLayer CAP_CER_0603         1771.654      474.693       180      "Cap Cer 0.1uF 50V 0603 10%"                                                                                              
+C9         C0603C471F8HAC7867  TopLayer CAP_CER_0603         1844.489      381.189       270      "Cap Cer 0603 470PF 10V Ultra Sta"                                                                                        
+C8         06035A820FAT2A      TopLayer CAP_CER_0603         1673.229      427.157       90       "0603 82 pF 50 V ±1% Tolerance C0G/NP0 Surface Mount Multilayer Ceramic Capacitor"                                        
+USB1       10103592-0001LF     TopLayer ""                   136.418       309.339       270      "CONN USB MICRO B RECPT SMT R/A"                                                                                          
+U1         MIC5205-3.3YM5-TR   TopLayer SOT-23-5             441.930       495.363       180      "Linear Voltage Regulator IC Positive Fixed 1 Output 3.3V 150mA SOT-23-5"                                                 
+C3         GRM21BR61E106MA73L  TopLayer CAP_CER_0805         314.961       487.489       270      "MURATA - GRM21BR61E106MA73L - SMD Multilayer Ceramic Capacitor, 10 µF, 25 V, 0805 [2012 Metric], ± 20%, X5R, GRM Series" 
+C2         CL21B105KOFNFNE     TopLayer CAP_CER_0805         355.315       596.741       0        "CAP CER 1UF 16V X7R 0805"                                                                                                
+C1         CL21B105KOFNFNE     TopLayer CAP_CER_0805         568.898       486.504       270      "CAP CER 1UF 16V X7R 0805"                                                                                                
+U3         NEO-7M-0            TopLayer NEO-7M-0             1142.305      412.029       180      "series RF Receiver GLONASS, GNSS, GPS 1.575GHz -161dBm - - -"                                                            
+U2         24AA32A-I/SN        TopLayer SOIC-8               713.583       448.119       0        "EEPROM Serial-2Wire 32K-bit 4K x 8 1.8V/2.5V/3.3V/5V 8-Pin SOIC N Tube"                                                  
+R4         RK73H1ERTTP10R0F    TopLayer RES_0402             1491.142      556.386       180      "Thick Film Resistors - SMD Anti Sulfur 0.5 Tol. 0402 -55oC to 155oC"                                                     
+R1         RC0603FR-073K3L     TopLayer RES_0603             568.762       262.226       90       "YAGEO - RC0603FR-073K3L - SMD Chip Resistor, 0603 [1608 Metric], 3.3 kohm, RC Series, 75 V, Thick Film, 100 mW"          
+R3         RC0603FR-071KL      TopLayer RES_0603             1584.646      189.260       90       "RES SMD 1K OHM 1% 1/10W 0603"                                                                                            
+R2         RC0603FR-0710KL     TopLayer RES_0603             1529.528      264.063       270      "Res General Purpose Thick Film 0603 10K Ohm 1% 1/10W ±100ppm/°C Molded SMD Paper T/R"                                    
+L1         LQW18AN22NG00D      TopLayer IND_0603             1575.788      612.489       90       "IND 22NH 500MA 170MOHM SMD 22nH 0.5A ±2% 0603"                                                                           
+J2         M20-9730445         TopLayer HDR_ML_1X4           487.402       694.182       90       "Headers & Wire Housings 04 SIL VERTICAL PIN HEADER GOLD HT"                                                              
+D2         APTD1608LSYCK/J3-PF TopLayer LED_GR_0603          1466.400      188.407       270      "LED YELLOW CLEAR 2SMD"                                                                                                   
+D1         SDM05U40CSP-7       TopLayer SDM05U40CSP-7        568.762       353.762       90       "DIODE SCHTKY 40V 500MA X3WLB1006"                                                                                        
+C4         CL21B105KOFNFNE     TopLayer CAP_CER_0805         432.935       141.163       0        "CAP CER 1UF 16V X7R 0805"                                                                                                
+C7         GRM21BR61E106MA73L  TopLayer CAP_CER_0805         815.809       152.974       270      "MURATA - GRM21BR61E106MA73L - SMD Multilayer Ceramic Capacitor, 10 µF, 25 V, 0805 [2012 Metric], ± 20%, X5R, GRM Series" 
+C6         CL21B105KOFNFNE     TopLayer CAP_CER_0805         739.037       153.959       270      "CAP CER 1UF 16V X7R 0805"                                                                                                
+C5         C0603C104K5RAC7082  TopLayer CAP_CER_0603         668.663       146.085       90       "Cap Cer 0.1uF 50V 0603 10%"                                                                                              
+BAT1       ML414H-IV01E        TopLayer ML414H-IV01E         431.158       240.286       270      "BATTERY LITHIUM 3V RECHARGE"                                                                                             
+A1         U.FL-R-SMT-1(10)    TopLayer HRS_U.FL-R-SMT-1(10) 1793.800      648.906       270      "HIROSE(HRS) - U.FL-R-SMT-1(10) - RF COAXIAL, U.FL, STRAIGHT JACK, 50OHM"                                                 

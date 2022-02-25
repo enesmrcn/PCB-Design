@@ -1,0 +1,24 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of Project [Neo-7M GNSS Evaluation Board.PrjPcb]
+   Generated File[NEO7M_EVAL.GTO]
+   Generated File[NEO7M_EVAL.GTP]
+   Generated File[NEO7M_EVAL.GTS]
+   Generated File[NEO7M_EVAL.GTL]
+   Generated File[NEO7M_EVAL.GBL]
+   Generated File[NEO7M_EVAL.GBS]
+   Generated File[NEO7M_EVAL.GBP]
+   Generated File[NEO7M_EVAL.GBO]
+   Generated File[NEO7M_EVAL.GKO]
+   Generated File[NEO7M_EVAL.GPT]
+   Generated File[NEO7M_EVAL.GPB]
+   Generated File[NEO7M_EVAL.GD1]
+   Generated File[NEO7M_EVAL.GG1]
+   Generated File[NEO7M_EVAL.EXTREP]
+   Generated File[NEO7M_EVAL.REP]
+
+
+Files Generated   : 15
+Documents Printed : 0
+
+Finished Output Generation At 23:45:28 On 24/02/2022

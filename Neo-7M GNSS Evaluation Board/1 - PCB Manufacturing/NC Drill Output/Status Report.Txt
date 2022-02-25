@@ -1,0 +1,13 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [Neo-7M GNSS Evaluation Board.PrjPcb]
+   Generated File[NEO7M_EVAL-RoundHoles.TXT]
+   Generated File[NEO7M_EVAL-SlotHoles.TXT]
+   Generated File[NEO7M_EVAL.LDP]
+   Generated File[NEO7M_EVAL.DRR]
+
+
+Files Generated   : 4
+Documents Printed : 0
+
+Finished Output Generation At 23:46:07 On 24/02/2022
