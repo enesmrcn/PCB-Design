@@ -20,20 +20,34 @@
 - Hot Start (1 sec) after power outage </br>
 -  Built-in LNA for better sensitivity </br>
 
-</br></br></br>
+<h1> 
+  <p align="center">
+  </p>
+</h1>
 
-<H4> 1:  </H4>
-![1](Screenshots/Top%20View.png)
+<br/>
 
-<H4> 2:  </H4>
-![2](https://github.com/enesmrcn/PCB-Design/blob/main/Neo-7M%20GNSS%20Evaluation%20Board/Screenshots/Side%20View.png)
+<H4 align="center"> Top View </H4>
+ <p align="center">
+  <img src="./Screenshots/Top View.png"></p>
 
 
-<H4> 3:  </H4>
-![3](https://github.com/enesmrcn/PCB-Design/blob/main/Neo-7M%20GNSS%20Evaluation%20Board/Screenshots/Top%20Layer.png)
+<br/>
 
+<H4 align="center"> Side View </H4>
+<p align="center">
+<img src="./Screenshots/Side View.png"></p>
+
+<br/>
+
+<H4 align="center"> Top Layer </H4>
+<p align="center">
+<img src="./Screenshots/Top Layer.png"></p>
+
+<br/>
+
+<H4 align="center"> Bottom Layer </H4>
+  <p align="center">
+<img src="./Screenshots/Bottom Layer.png"></p>
 
 </br>
-
-Update:
-Because of our limited project budget, I focused on low cost design that accomplishes the minimal hardware requirements. So, you may not get the best performance from the GNSS using this design.
