@@ -9,7 +9,7 @@
 
 <!-- GİRİŞ -->
 
-<p> Here is the GNSS module I designed recently for our Mid-Altitude Rocket project. </p> 
+<p> Here is the GNSS module I designed recently for our Mid-Altitude Rocket project. </br> This is a 2-Layer PCB designed in Altium </p> 
 
 </br>
 
@@ -37,26 +37,26 @@
 
 <H4 align="center"> Top View </H4>
  <p align="center">
-  <img src="./Screenshots/Top View.png"></p>
+  <img src="./Images/Top View.png"></p>
 
 
 <br/>
 
 <H4 align="center"> Side View </H4>
 <p align="center">
-<img src="./Screenshots/Side View.png"></p>
+<img src="./Images/Side View.png"></p>
 
 <br/>
 
 <H4 align="center"> Top Layer </H4>
 <p align="center">
-<img src="./Screenshots/Top Layer.png"></p>
+<img src="./Images/Top Layer.png"></p>
 
 <br/>
 
 <H4 align="center"> Bottom Layer </H4>
   <p align="center">
-<img src="./Screenshots/Bottom Layer.png"></p>
+<img src="./Images/Bottom Layer.png"></p>
 
 </br>
 
