@@ -1,7 +1,7 @@
 <!-- BAŞLIK -->
 <h1> 
   <p align="center">
-     L86M33 Breakout Board
+     GNSS L86M33 Breakout Board
   </p>
 </h1>
 
@@ -9,17 +9,12 @@
 
 <!-- GİRİŞ -->
 
-<p> Here is my GNSS design for Back-up Avionic System in Mid-Altitude Rocket</p>
-<p> This is a 4-Layer PCB designed in Altium </p> 
+<p> Here is my GNSS design for Back-up Avionic System in Mid-Altitude Rocket </br> This is a 4-Layer PCB designed in Altium </p>
 
 </br>
 
 <!-- ÖZELLİKLER -->
                         
-
-
-
-
 
 
 <h4> Hardware Specs: </h4> 
@@ -34,6 +29,16 @@
 - PPS VS. NMEA can be used for time service </br>
 - Hot Start (in 1 sec) after power outage </br>
 - LED indication when external antenna detected
+
+</br>
+</br>
+
+<!-- HAKKINDA -->
+
+<h4> About the Board: </h4> 
+<p> L86 is an ultra-compact GNSS POT (Patch on Top) module with an embedded 18.4mm × 18.4mm × 4.0mm patch antenna and utilizes the MediaTek new generation GNSS chipset MT3333 that achieves the perfect performance. Designed to be compatible with Quectel GPS L80 module in the compact and unified form factor, it provides a flexible and scalable platform for migrating from GPS to GNSS. This space-saving design makes L86 a perfect module for miniature devices. Adopting LCC package and integrating patch antenna, L86 has exceptional performance both in acquisition and tracking. </p>
+
+</br>
 
 <h1> 
   <p align="center">
@@ -65,7 +70,4 @@
 
 <br/>
 
-![GitHub](https://img.shields.io/github/license/enesmrcn/PCB-Design) 
-
-<br/>
-Frist Release : 27 Feb, 2022
+![GitHub](https://img.shields.io/github/license/enesmrcn/PCB-Design)     First Release : 27 Feb, 2022
