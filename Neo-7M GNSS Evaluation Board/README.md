@@ -1,4 +1,4 @@
-                        <!-- BAŞLIK -->
+<!-- BAŞLIK -->
 <h1> 
   <p align="center">
      GNSS Evaluation Board
@@ -7,13 +7,13 @@
 
 </br>
 
-                        <!-- GİRİŞ -->
+<!-- GİRİŞ -->
 
 <p> Here is the GNSS module I designed recently for our Mid-Altitude Rocket project. </p> 
 
 </br>
 
-                        <!-- ÖZELLİKLER -->
+<!-- ÖZELLİKLER -->
                         
 <h4> Hardware Specs: </h4> 
 - Multi-GNSS engine for GPS, GLONASS, Galileo and QZSS </br>
@@ -30,7 +30,7 @@
 </h1>
 
 
-                        <!-- GÖRSELLER -->
+<!-- GÖRSELLER -->
                         
                         
 <br/>
@@ -60,4 +60,5 @@
 
 </br>
 
-[![Github All Releases](https://img.shields.io/github/downloads/enesmrcn/PCB-Design/total.svg)]()
+
+<img alt="GitHub all releases" src="https://img.shields.io/github/downloads/enesmrcn/PCB-Design/total">
