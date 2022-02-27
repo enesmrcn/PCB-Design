@@ -61,4 +61,4 @@
 </br>
 
 
-<img alt="GitHub all releases" src="https://img.shields.io/github/downloads/enesmrcn/PCB-Design/total"> ![GitHub](https://img.shields.io/github/license/enesmrcn/PCB-Design)
+![GitHub](https://img.shields.io/github/license/enesmrcn/PCB-Design)
