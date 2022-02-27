@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [L86M33 Breakout.PrjPcb]
+   Generated File[L86M33 Breakout.TXT]
+   Generated File[L86M33 Breakout.LDP]
+   Generated File[L86M33 Breakout.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 09:29:24 On 27/02/2022

@@ -1,0 +1,11 @@
+Output: Generates pick and place files
+Type  : Pick Place
+From  : Variant [[No Variations]] of Project [L86M33 Breakout.PrjPcb]
+   Generated File[Pick Place for L86M33 Breakout.txt]
+   Generated File[Pick Place for L86M33 Breakout.csv]
+
+
+Files Generated   : 2
+Documents Printed : 0
+
+Finished Output Generation At 09:30:33 On 27/02/2022
