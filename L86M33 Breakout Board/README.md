@@ -9,7 +9,8 @@
 
 <!-- GİRİŞ -->
 
-<p> Here is my GNSS design for Back-up Avionic System in Mid-Altitude Rocket </p> 
+<p> Here is my GNSS design for Back-up Avionic System in Mid-Altitude Rocket</p>
+<p> This is a 4-Layer PCB designed in Altium </p> 
 
 </br>
 
@@ -33,7 +34,7 @@
 - PPS VS. NMEA can be used for time service </br>
 - Hot Start (in 1 sec) after power outage </br>
 - LED indication when external antenna detected
-- 
+
 <h1> 
   <p align="center">
   </p>
@@ -58,10 +59,13 @@
 
 <br/>
 
-<H4 align="center"> All LayerS </H4>
+<H4 align="center"> All Layers </H4>
 <p align="center">
 <img src="./Images/Multilayer View.png"></p>
 
 <br/>
 
-![GitHub](https://img.shields.io/github/license/enesmrcn/PCB-Design)
+![GitHub](https://img.shields.io/github/license/enesmrcn/PCB-Design) 
+
+<br/>
+Frist Release : 27 Feb, 2022
