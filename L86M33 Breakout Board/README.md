@@ -70,4 +70,6 @@
 
 <br/>
 
-![GitHub](https://img.shields.io/github/license/enesmrcn/PCB-Design)     First Release : 27 Feb, 2022
+![GitHub](https://img.shields.io/github/license/enesmrcn/PCB-Design)   
+
+<br/> <i>First Release : 27 Feb, 2022</i>
