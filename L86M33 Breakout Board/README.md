@@ -47,20 +47,20 @@
 
 <H4 align="center"> Top View </H4>
  <p align="center">
-  <img src="./Screenshots/Top View 3D.png"></p>
+  <img src="./Images/Top View 3D.png"></p>
 
 
 <br/>
 
 <H4 align="center"> Bottom View </H4>
 <p align="center">
-<img src="./Screenshots/Bottom View 3D.png"></p>
+<img src="./Images/Bottom View 3D.png"></p>
 
 <br/>
 
 <H4 align="center"> All LayerS </H4>
 <p align="center">
-<img src="./Screenshots/Multilayer View.png"></p>
+<img src="./Images/Multilayer View.png"></p>
 
 <br/>
 
