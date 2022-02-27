@@ -1,4 +1,4 @@
-
+                        <!-- BAŞLIK -->
 <h1> 
   <p align="center">
      GNSS Evaluation Board
@@ -7,10 +7,14 @@
 
 </br>
 
+                        <!-- GİRİŞ -->
+
 <p> Here is the GNSS module I designed recently for our Mid-Altitude Rocket project. </p> 
 
 </br>
 
+                        <!-- ÖZELLİKLER -->
+                        
 <h4> Hardware Specs: </h4> 
 - Multi-GNSS engine for GPS, GLONASS, Galileo and QZSS </br>
 - Supports active and passive antennas </br>
@@ -25,6 +29,10 @@
   </p>
 </h1>
 
+
+                        <!-- GÖRSELLER -->
+                        
+                        
 <br/>
 
 <H4 align="center"> Top View </H4>
@@ -51,3 +59,5 @@
 <img src="./Screenshots/Bottom Layer.png"></p>
 
 </br>
+
+[![Github All Releases](https://img.shields.io/github/downloads/enesmrcn/PCB-Design/total.svg)]()
