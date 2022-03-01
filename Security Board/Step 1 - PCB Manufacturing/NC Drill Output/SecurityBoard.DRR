@@ -1,0 +1,45 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: SecurityBoard.PcbDoc   01/03/2022  19:19:20
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : SecurityBoard-RoundHoles.TXT
+ASCII SlotHoles File : SecurityBoard-SlotHoles.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      12mil (0.3mm)                                             Round             142       PTH        31.73inch (805.98mm)
+T2      14mil (0.35mm)                                            Round             11        PTH        1.04inch (26.37mm)
+T3      20mil (0.5mm)                                             Round             3         PTH        0.28inch (7.20mm)
+T4      32mil (0.8mm)                                             Round             2         PTH        0.20inch (5.00mm)
+T5      34mil (0.87mm)                                            Round             12        PTH        1.68inch (42.67mm)
+T6      35mil (0.9mm)                                             Round             2         PTH        0.12inch (3.00mm)
+T7      39mil (1mm)                                               Round             10        PTH        5.27inch (133.73mm)
+T8      39mil (1mm)                                               Slot              2         PTH        4.06inch (103.17mm)
+T9      43mil (1.1mm)                                             Round             2         PTH        1.18inch (30.00mm)
+T10     47mil (1.2mm)                                             Slot              4         PTH        4.32inch (109.65mm)
+T11     51mil (1.3mm)                                             Round             10        PTH        2.98inch (75.80mm)
+T12     69mil (1.75mm)                                            Round             6         PTH        4.79inch (121.72mm)
+T13     83mil (2.1mm)                                             Round             2         NPTH       2.22inch (56.26mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              208
+Layer Pair : Top Layer to POWER
+ASCII RoundHoles File : SecurityBoard-RoundHoles.TX1
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      12mil (0.3mm)                                             Round             6         PTH        7.79inch (197.92mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              6
+Layer Pair : POWER to Bottom Layer
+ASCII RoundHoles File : SecurityBoard-RoundHoles.TX2
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      12mil (0.3mm)                                             Round             20        PTH        11.24inch (285.41mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              20
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              234
+
+Total Processing Time (hh:mm:ss) : 00:00:01

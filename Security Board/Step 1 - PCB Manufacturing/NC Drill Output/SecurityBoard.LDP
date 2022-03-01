@@ -1,0 +1,5 @@
+Layer Pairs Export File for PCB: C:\Users\Public\Documents\Altium\SecurityBoard\SecurityBoard.PcbDoc
+LayersSetName=Top_Bot_Thru_Holes|DrillFile=securityboard-roundholes.txt|DrillLayers=gtl,gp1,gp2,gbl
+LayersSetName=Top_Bot_Slot_Holes|DrillFile=securityboard-slotholes.txt|DrillLayers=gtl,gp1,gp2,gbl
+LayersSetName=Top_POWER_Blind_Vias|DrillFile=securityboard-roundholes.tx1|DrillLayers=gtl,gp1,gp2
+LayersSetName=POWER_Bot_Blind_Vias|DrillFile=securityboard-roundholes.tx2|DrillLayers=gp2,gbl
