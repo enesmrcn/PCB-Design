@@ -1,7 +1,7 @@
 <!-- BAŞLIK -->
 <h1> 
   <p align="center">
-     GNSS L86M33 Breakout Board
+     Security Board
   </p>
 </h1>
 
@@ -9,7 +9,7 @@
 
 <!-- GİRİŞ -->
 
-<p> Here is my GNSS design for Back-up Avionic System in Mid-Altitude Rocket </br> This is a 4-Layer PCB designed in Altium </p>
+<p> Security board is a product that provides high securty around the target environment using its motion detectors.  </br> This is a 4-Layer PCB designed in Altium </p>
 
 </br>
 
@@ -18,17 +18,25 @@
 
 
 <h4> Hardware Specs: </h4> 
-- Multi-GNSS engine for GPS, GLONASS, Galileo and QZSS </br>
-- Automatic antenna switching function </br>
-- Support short circuit protection and antenna detection </br>
-- Built-in LNA for better sensitivity </br>
-- Support external active antenna via u.Fl connector </br>
-- 99 acquisition channels, 33 tracking channels </br>
-- Keeps working for 1 minute in power outage </br>
-- High sensitivity: -167dBm @Tracking, -149dBm @Acquisition </br>
-- PPS VS. NMEA can be used for time service </br>
-- Hot Start (in 1 sec) after power outage </br>
-- LED indication when external antenna detected
+- 220VAC 50HZ Power Input </br>
+- Supports 12VDC and 5VDC power output </br>
+- USB programming interface </br>
+- Provides realtime clock information via RTC module </br>
+- Provides environmental temprature data in realtime </br>
+- Tracks and detecets any phtsical motion with motion sensitive sensors </br>
+- Provides Wi-Fi and Bluetooth connection </br>
+
+</br>
+
+<h4> Hardware Specs: </h4> 
+- STM32F103C6T6A (MCU)</br>
+- ESP32-WROOM-32E (Wi-Fi & BLE Module)</br>
+- MAX6662MSA (Temperature Sensor)</br>
+- M41T00M6F (RTC)</br>
+- NCS36000DRG (PIR Sensor) </br>
+- BV302S12020-ZU (Transformator) </br>
+- LM2675MX-12/NOPB (12VDC Converter) </br>
+- AP7361-33E-13 (5VDC-3.3VDC Converter) </br>
 
 </br>
 </br>
@@ -36,7 +44,7 @@
 <!-- HAKKINDA -->
 
 <h4> About the Board: </h4> 
-<p> L86 is an ultra-compact GNSS POT (Patch on Top) module with an embedded 18.4mm × 18.4mm × 4.0mm patch antenna and utilizes the MediaTek new generation GNSS chipset MT3333 that achieves the perfect performance. Designed to be compatible with Quectel GPS L80 module in the compact and unified form factor, it provides a flexible and scalable platform for migrating from GPS to GNSS. This space-saving design makes L86 a perfect module for miniature devices. Adopting LCC package and integrating patch antenna, L86 has exceptional performance both in acquisition and tracking. </p>
+<p> Security board is a product that provides high securty around the target environment using its motion detectors. It supports interrnet connection and booting the hardware via internet on the field. When the burglar detected, it sends a signal to the main hardware and avtivate the noisy buzzer loudly</p>
 
 </br>
 
@@ -64,6 +72,12 @@
 
 <br/>
 
+<H4 align="center"> Side View </H4>
+<p align="center">
+<img src="./Images/Side View.png"></p>
+
+<br/>
+
 <H4 align="center"> All Layers </H4>
 <p align="center">
 <img src="./Images/Multilayer View.png"></p>
@@ -72,5 +86,5 @@
 
 ![GitHub](https://img.shields.io/github/license/enesmrcn/PCB-Design)   
 
-<br/> <i>First Release : 27 Feb, 2022</i>
-<br/> <i>Last Update : 28 Feb, 2022</i>
+<br/> <i>First Release : 1 March, 2022</i>
+<br/> <i>Last Update : 3 Jan, 2022</i>
