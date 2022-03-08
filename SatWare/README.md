@@ -13,15 +13,24 @@
 
 I am excited to announce that I have completed my 3 months of hardware design work as part of my position in HürSAT Satellite. I've learnt lots of new things and had so much fun.
 
-Firstly, I want to thank you Rick Hartley for his informative technical conferences, Dear Robert Feranec for udemy courses and Dear Mustafa Berk AYDOĞAN for his udemy course really helped me to learn Altium Designer as quick as possible in details.
+Firstly, I want to thank you Rick Hartley for his informative technical conferences, Dear Robert Feranec for udemy courses and Dear Mustafa Berk AYDOĞAN for his udemy course really helped me.
 
-<a href="https://github.com/hsencan03">Hüseyin Şencan</a>, Co-founder of enny Games, sponsored all costs of the design. Thank you for supporting our dreams come true. Otherwise, it wouldn't be possible.
+<a href="https://github.com/hsencan03">Hüseyin Şencan</a>, Co-founder of <a href="https://ennygames.com/">enny Games</a>, sponsored all costs of the design. Thank you for supporting our dreams come true. Otherwise, it wouldn't be possible.
 
 
 </br> <i> This is a 6-Layer PCB designed in Altium </i>
 
  </p>
+</br>
 
+<!-- HAKKINDA -->
+
+<h4> About the Board: </h4> 
+<p> The 6-Layer control hardware has been designed for a satellite to be taken launch in a interstellar rocket to spy an unknown planet. 
+Our satellite has a high accuracy barometer to measure altitude and temperature, a GNSS module for gathering its location, IMU sensor for inertial measurement, live-video stream capability for recording the surface of the target planet and long range communication module for telemetry transfer.
+It has brushless motor drivers to control the descending velocity in the target atmosphere. There is also an SSD mount for massive data storage. </p>
+
+</br>
 
 </br>
 
@@ -56,16 +65,7 @@ Firstly, I want to thank you Rick Hartley for his informative technical conferen
 - NEO-7M-0 (GNSS) </br>
 
 </br>
-</br>
 
-<!-- HAKKINDA -->
-
-<h4> About the Board: </h4> 
-<p> The 6-Layer control hardware has been designed for a satellite to be taken launch in a interstellar rocket to spy an unknown planet. 
-Our satellite has a high accuracy barometer to measure altitude and temperature, a GNSS module for gathering its location, IMU sensor for inertial measurement, live-video stream capability for recording the surface of the target planet and long range communication module for telemetry transfer.
-It has brushless motor drivers to control the descending velocity in the target atmosphere. There is also an SSD mount for massive data storage. </p>
-
-</br>
 
 <h1> 
   <p align="center">
@@ -109,11 +109,7 @@ It has brushless motor drivers to control the descending velocity in the target 
 
 <br/>
 
-![GitHub](https://img.shields.io/github/license/enesmrcn/PCB-Design)  
-
-<br/>
-
- 
+![GitHub](https://img.shields.io/github/license/enesmrcn/PCB-Design)   
 
 <br/> <i>First Release : 1 March, 2022</i>
 <br/> <i>Last Update : 3 Jan, 2022</i>
