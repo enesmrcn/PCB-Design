@@ -28,7 +28,7 @@
 
 </br>
 
-<h4> Hardware Specs: </h4> 
+<h4> Components: </h4> 
 - STM32F103C6T6A (MCU)</br>
 - ESP32-WROOM-32E (Wi-Fi & BLE Module)</br>
 - MAX6662MSA (Temperature Sensor)</br>
