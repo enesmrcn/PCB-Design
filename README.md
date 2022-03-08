@@ -1,3 +1,6 @@
+<br/>
+<br/>
+
 <!-- BAŞLIK -->
 <h1> 
   <p align="center">
@@ -9,14 +12,19 @@
 </br>
 </br>
 
+
+
 <!-- AÇILIŞ -->
 <h2> 
+  <br/>
+    <br/>
+    <br/>
   <p align="center">
-     Security Board
+     <a href="https://github.com/enesmrcn/PCB-Design/tree/main/SatWare"> SatWare (Satellite Control PCB) </a>
     <br/>
     <br/>
     <br/>
-  <img src="./Security Board/Images/Top View 3D.png">
+  <img src="./SatWare/Images/Top View 3D.png">
 
 
 <br/>
@@ -30,18 +38,43 @@
 
 
 
+
 <!-- AÇILIŞ -->
 <h2> 
   </br>
   </br>
   </br>
   <p align="center">
-     L86M33 Breakout Board
+     <a href="https://github.com/enesmrcn/PCB-Design/tree/main/Security%20Board"> Security Board </a>
     <br/>
     <br/>
     <br/>
-  <img src="./L86M33 Breakout Board/Images/Top View 3D.png">
+  <a href="https://github.com/enesmrcn/PCB-Design/tree/main/Security%20Board"> <img src="./Security Board/Images/Top View 3D.png"> </a>
 
+
+<br/>
+  
+  </p>
+</h2>
+
+<!-- KAPANIŞ -->
+
+
+
+
+
+<!-- AÇILIŞ -->
+<h2> 
+  </br>
+  </br>
+  </br>
+  <p align="center">
+      <a href="https://github.com/enesmrcn/PCB-Design/tree/main/L86M33%20Breakout%20Board"> L86M33 Breakout Board </a>
+    <br/>
+    <br/>
+    <br/>
+  <a href="https://github.com/enesmrcn/PCB-Design/tree/main/L86M33%20Breakout%20Board"> <img src="./L86M33 Breakout Board/Images/Top View 3D.png"> </a>
+  
 <br/>
 <br/>
   
@@ -56,11 +89,11 @@
   </br>
   </br>
   <p align="center">
-     Neo-7M GNSS Evaluation Board
+     <a href="https://github.com/enesmrcn/PCB-Design/tree/main/Neo-7M%20GNSS%20Evaluation%20Board"> Neo-7M GNSS Evaluation Board </a>
     <br/>
     <br/>
     <br/>
-  <img src="./Neo-7M GNSS Evaluation Board/Images/Top View.png">
+  <a href="https://github.com/enesmrcn/PCB-Design/tree/main/Neo-7M%20GNSS%20Evaluation%20Board"> <img src="./Neo-7M GNSS Evaluation Board/Images/Top View.png"> </a>
 
 
 <br/>
@@ -76,11 +109,11 @@
   </br>
   </br>
   <p align="center">
-     LM2596 Breakout Module
+  <a href="https://github.com/enesmrcn/PCB-Design/tree/main/PSU"> LM2596 Breakout Module </a>
     <br/>
     <br/>
     <br/>
-  <img src="./PSU/Screenshots/top-3d-view.png">
+  <a href="https://github.com/enesmrcn/PCB-Design/tree/main/PSU"> <img src="./PSU/Screenshots/top-3d-view.png"> </a>
 
 
 <br/>
