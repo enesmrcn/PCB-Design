@@ -109,7 +109,11 @@ It has brushless motor drivers to control the descending velocity in the target 
 
 <br/>
 
-![GitHub](https://img.shields.io/github/license/enesmrcn/PCB-Design)   
+![GitHub](https://img.shields.io/github/license/enesmrcn/PCB-Design)  
+
+<br/>
+
+ 
 
 <br/> <i>First Release : 1 March, 2022</i>
 <br/> <i>Last Update : 3 Jan, 2022</i>
