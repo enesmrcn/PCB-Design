@@ -1,0 +1,33 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of Project [Sattware_v2.PrjPcb]
+   Generated File[Sattware_v2.GTO]
+   Generated File[Sattware_v2.GTP]
+   Generated File[Sattware_v2.GTS]
+   Generated File[Sattware_v2.GTL]
+   Generated File[Sattware_v2.GP1]
+   Generated File[Sattware_v2.G1]
+   Generated File[Sattware_v2.G2]
+   Generated File[Sattware_v2.GP2]
+   Generated File[Sattware_v2.GBL]
+   Generated File[Sattware_v2.GBS]
+   Generated File[Sattware_v2.GBP]
+   Generated File[Sattware_v2.GBO]
+   Generated File[Sattware_v2.GM3]
+   Generated File[Sattware_v2.GM4]
+   Generated File[Sattware_v2.GM5]
+   Generated File[Sattware_v2.GM6]
+   Generated File[Sattware_v2.GKO]
+   Generated File[Sattware_v2.GPT]
+   Generated File[Sattware_v2.GPB]
+   Generated File[Sattware_v2.GD1]
+   Generated File[Sattware_v2.GG1]
+   Generated File[Sattware_v2.RUL]
+   Generated File[Sattware_v2.EXTREP]
+   Generated File[Sattware_v2.REP]
+
+
+Files Generated   : 24
+Documents Printed : 0
+
+Finished Output Generation At 22:06:35 On 29/11/2021

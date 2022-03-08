@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: C:\Users\Public\Documents\Altium\Projects\Satellite\Sattware_v2.PcbDoc
+LayersSetName=Top_Bot_Thru_Holes|DrillFile=sattware_v2-roundholes.txt|DrillLayers=gtl,gp1,g1,g2,gp2,gbl
+LayersSetName=Top_Bot_Slot_Holes|DrillFile=sattware_v2-slotholes.txt|DrillLayers=gtl,gp1,g1,g2,gp2,gbl

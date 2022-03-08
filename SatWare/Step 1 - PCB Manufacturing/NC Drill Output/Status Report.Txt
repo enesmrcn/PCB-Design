@@ -1,0 +1,14 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [Sattware_v2.PrjPcb]
+   Generated File[Sattware_v2-RoundHoles.TXT]
+   Generated File[Sattware_v2-SlotHoles.TXT]
+   Generated File[Sattware_v2.DRL]
+   Generated File[Sattware_v2.LDP]
+   Generated File[Sattware_v2.DRR]
+
+
+Files Generated   : 5
+Documents Printed : 0
+
+Finished Output Generation At 22:15:02 On 29/11/2021

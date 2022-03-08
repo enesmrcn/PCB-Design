@@ -1,0 +1,6 @@
+DRC Rules Export File for PCB: C:\Users\Public\Documents\Altium\Projects\Satellite\Sattware_v2.PcbDoc
+RuleKind=Width|RuleName=GNSS Antenna|Scope=Board|Minimum=3.78
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=1.97
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=7.00
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=8.00
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
