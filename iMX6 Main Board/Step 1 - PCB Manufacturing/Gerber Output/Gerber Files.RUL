@@ -1,0 +1,14 @@
+DRC Rules Export File for PCB: S:\FEDEVEL\iMX6 Rex\V1I1\iMX6 Rex_V1I1_PCB.PcbDoc
+RuleKind=Clearance|RuleName=Poly GND to Via|Scope=Board|Minimum=2.95
+RuleKind=Clearance|RuleName=Poly PWR to Via|Scope=Board|Minimum=2.95
+RuleKind=Clearance|RuleName=Poly to Poly|Scope=Board|Minimum=7.87
+RuleKind=Clearance|RuleName=Clearance Plated Hole|Scope=Board|Minimum=7.87
+RuleKind=Width|RuleName=DiffPair_DIFF100Width|Scope=Board|Minimum=3.35
+RuleKind=Width|RuleName=DiffPair_DIFF90Width|Scope=Board|Minimum=3.35
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=3.15
+RuleKind=Clearance|RuleName=Clearence|Scope=Board|Minimum=3.94
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
+RuleKind=Width|RuleName=Width Power|Scope=Board|Minimum=7.87
+RuleKind=Width|RuleName=Width Ground|Scope=Board|Minimum=7.87
+RuleKind=Clearance|RuleName=Poly L2 & L11 to All|Scope=Board|Minimum=3.35

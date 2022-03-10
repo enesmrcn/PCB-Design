@@ -1,0 +1,58 @@
+---------------------------------------------------------------------------
+NCDrill File Report For: iMX6 Rex_V1I1_PCB.PcbDoc   27. 9. 2013  14:27:01
+---------------------------------------------------------------------------
+
+Layer Pair : L1 to L12
+ASCII RoundHoles File : NC Drill Files.TXT
+
+Tool         Hole Size           Hole Type     Hole Count Plated       Tool Travel
+---------------------------------------------------------------------------
+T2        0.2mm (7.874mil)         Round          761              1275.05 mm (50.20 Inch)
+T3        2.2mm (86.614mil)        Round          4                165.00 mm (6.50 Inch)
+T4        1.05mm (41.339mil)       Round          4         NPTH   70.66 mm (2.78 Inch)
+---------------------------------------------------------------------------
+Totals                                            769              1510.71 mm (59.48 Inch)
+Layer Pair : L1 to L2
+ASCII RoundHoles File : NC Drill Files.TX1
+
+Tool         Hole Size           Hole Type     Hole Count Plated       Tool Travel
+---------------------------------------------------------------------------
+T1        0.1mm (3.937mil)         Round          305              584.71 mm (23.02 Inch)
+---------------------------------------------------------------------------
+Totals                                            305              584.71 mm (23.02 Inch)
+Layer Pair : L2 to L3
+ASCII RoundHoles File : NC Drill Files.TX2
+
+Tool         Hole Size           Hole Type     Hole Count Plated       Tool Travel
+---------------------------------------------------------------------------
+T1        0.1mm (3.937mil)         Round          290              532.71 mm (20.97 Inch)
+---------------------------------------------------------------------------
+Totals                                            290              532.71 mm (20.97 Inch)
+Layer Pair : L3 to L10
+ASCII RoundHoles File : NC Drill Files.TX3
+
+Tool         Hole Size           Hole Type     Hole Count Plated       Tool Travel
+---------------------------------------------------------------------------
+T2        0.2mm (7.874mil)         Round          197              527.02 mm (20.75 Inch)
+---------------------------------------------------------------------------
+Totals                                            197              527.02 mm (20.75 Inch)
+Layer Pair : L10 to L11
+ASCII RoundHoles File : NC Drill Files.TX4
+
+Tool         Hole Size           Hole Type     Hole Count Plated       Tool Travel
+---------------------------------------------------------------------------
+T1        0.1mm (3.937mil)         Round          142              387.26 mm (15.25 Inch)
+---------------------------------------------------------------------------
+Totals                                            142              387.26 mm (15.25 Inch)
+Layer Pair : L11 to L12
+ASCII RoundHoles File : NC Drill Files.TX5
+
+Tool         Hole Size           Hole Type     Hole Count Plated       Tool Travel
+---------------------------------------------------------------------------
+T1        0.1mm (3.937mil)         Round          185              562.94 mm (22.16 Inch)
+---------------------------------------------------------------------------
+Totals                                            185              562.94 mm (22.16 Inch)
+---------------------------------------------------------------------------
+Totals                                            1888             4105.35 mm (161.63 Inch)
+
+Total Processing Time (hh:mm:ss) : 00:00:01

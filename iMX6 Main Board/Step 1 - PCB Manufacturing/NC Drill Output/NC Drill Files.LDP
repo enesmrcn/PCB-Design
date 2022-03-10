@@ -1,0 +1,7 @@
+Layer Pairs Export File for PCB: S:\FEDEVEL\iMX6 Rex\V1I1\iMX6 Rex_V1I1_PCB.PcbDoc
+LayersSetName=Top_Bot_Thru_Holes|DrillFile=nc drill files.txt|LayerPairs=gtl,gbl
+LayersSetName=L1_L2_Blind_Vias|DrillFile=tx1|LayerPairs=gtl,g1
+LayersSetName=L2_L3_Burried_Vias|DrillFile=tx2|LayerPairs=g1,g2
+LayersSetName=L3_L10_Burried_Vias|DrillFile=tx3|LayerPairs=g2,gp1,g8,g3,g4,g7,gp4,g5
+LayersSetName=L10_L11_Burried_Vias|DrillFile=tx4|LayerPairs=g5,g6
+LayersSetName=L11_L12_Blind_Vias|DrillFile=tx5|LayerPairs=g8,g7,g6,gbl

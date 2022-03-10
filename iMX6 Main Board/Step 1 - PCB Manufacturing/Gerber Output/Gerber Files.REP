@@ -1,0 +1,504 @@
+*************************************************************
+FileName = Gerber Files.GBR
+AutoAperture = True
+*************************************************************
+Generating : L1
+      File : Gerber Files.GTL
+
+    Adding Layer      : L1
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+*************************************************************
+
+*************************************************************
+Generating : L2
+      File : Gerber Files.G1
+
+    Adding Layer      : L2
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D38
+    D45
+    D46
+    D47
+    D48
+*************************************************************
+
+*************************************************************
+Generating : L3
+      File : Gerber Files.G2
+
+    Adding Layer      : L3
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D38
+    D39
+    D41
+    D42
+    D45
+    D46
+    D49
+    D50
+    D51
+    D52
+*************************************************************
+
+*************************************************************
+Generating : L4
+      File : Gerber Files.GP1
+
+    Adding Layer      : L4
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D32
+    D41
+    D53
+*************************************************************
+
+*************************************************************
+Generating : L5 (PWR)
+      File : Gerber Files.G3
+
+    Adding Layer      : L5 (PWR)
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D42
+    D46
+    D50
+    D51
+*************************************************************
+
+*************************************************************
+Generating : L6 (PWR)
+      File : Gerber Files.G4
+
+    Adding Layer      : L6 (PWR)
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D46
+*************************************************************
+
+*************************************************************
+Generating : L7 (PWR)
+      File : Gerber Files.G5
+
+    Adding Layer      : L7 (PWR)
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D46
+*************************************************************
+
+*************************************************************
+Generating : L8 (PWR)
+      File : Gerber Files.G6
+
+    Adding Layer      : L8 (PWR)
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D46
+*************************************************************
+
+*************************************************************
+Generating : L9
+      File : Gerber Files.GP2
+
+    Adding Layer      : L9
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D32
+    D41
+    D53
+*************************************************************
+
+*************************************************************
+Generating : L10
+      File : Gerber Files.G7
+
+    Adding Layer      : L10
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D40
+    D42
+    D45
+    D46
+    D49
+    D52
+*************************************************************
+
+*************************************************************
+Generating : L11
+      File : Gerber Files.G8
+
+    Adding Layer      : L11
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D45
+    D46
+    D47
+    D48
+*************************************************************
+
+*************************************************************
+Generating : L12
+      File : Gerber Files.GBL
+
+    Adding Layer      : L12
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D15
+    D20
+    D21
+    D22
+    D23
+    D25
+    D31
+    D33
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+    D41
+    D42
+    D44
+    D45
+    D46
+    D50
+    D54
+    D55
+    D56
+    D57
+    D58
+    D59
+    D60
+    D61
+    D62
+    D63
+    D64
+    D65
+    D66
+    D67
+    D68
+    D69
+    D70
+    D71
+    D72
+    D73
+    D74
+    D75
+    D76
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : Gerber Files.GTO
+
+    Adding Layer      : Top Overlay
+
+
+Used DCodes :
+    D41
+    D74
+    D77
+    D78
+*************************************************************
+
+*************************************************************
+Generating : Top Paste
+      File : Gerber Files.GTP
+
+    Adding Layer      : Top Paste
+
+    Adding Layer      : L1
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D13
+    D14
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D32
+    D34
+    D79
+*************************************************************
+
+*************************************************************
+Generating : Top Solder
+      File : Gerber Files.GTS
+
+    Adding Layer      : Top Solder
+
+    Adding Layer      : L1
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D46
+    D80
+    D81
+    D82
+    D83
+    D84
+    D85
+    D86
+    D87
+    D88
+    D89
+    D90
+    D91
+    D92
+    D93
+    D94
+    D95
+    D96
+    D97
+    D98
+    D99
+    D100
+    D101
+    D102
+    D103
+    D104
+*************************************************************
+
+*************************************************************
+Generating : Bottom Solder
+      File : Gerber Files.GBS
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : L12
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D36
+    D46
+    D83
+    D88
+    D89
+    D90
+    D91
+    D93
+    D99
+    D101
+    D103
+    D104
+    D105
+    D106
+    D107
+    D108
+    D109
+    D110
+    D111
+    D112
+    D113
+    D114
+    D115
+    D116
+    D117
+    D118
+    D119
+    D120
+    D121
+    D122
+*************************************************************
+
+*************************************************************
+Generating : Bottom Paste
+      File : Gerber Files.GBP
+
+    Adding Layer      : Bottom Paste
+
+    Adding Layer      : L12
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D15
+    D20
+    D21
+    D22
+    D23
+    D25
+    D54
+    D55
+    D56
+    D57
+    D58
+    D59
+    D60
+    D61
+    D62
+    D63
+    D64
+    D65
+    D67
+    D68
+    D69
+    D70
+    D71
+    D123
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : Gerber Files.GBO
+
+    Adding Layer      : Bottom Overlay
+
+
+Used DCodes :
+    D39
+    D41
+    D74
+    D77
+*************************************************************
+
+*************************************************************
+Generating : Mechanical Drawing
+      File : Gerber Files.GM2
+
+    Adding Layer      : Mechanical Drawing
+
+
+Used DCodes :
+    D41
+    D50
+    D77
+    D124
+*************************************************************
+
+*************************************************************
+Generating : Manufacturing Notes
+      File : Gerber Files.GM3
+
+    Adding Layer      : Manufacturing Notes
+
+
+Used DCodes :
+    D41
+    D42
+    D72
+    D76
+    D77
+*************************************************************
+
+*************************************************************
+Generating : Licence
+      File : Gerber Files.GM4
+
+    Adding Layer      : Licence
+
+
+Used DCodes :
+    D77
+*************************************************************
+
+*************************************************************
+Generating : Board Outline
+      File : Gerber Files.GM28
+
+    Adding Layer      : Board Outline
+
+
+Used DCodes :
+    D41
+*************************************************************
+
