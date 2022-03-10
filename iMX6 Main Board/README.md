@@ -44,12 +44,6 @@
 </br>
 </br>
 
-<!-- HAKKINDA -->
-
-<h4> About the Board: </h4> 
-<p> L86 is an ultra-compact GNSS POT (Patch on Top) module with an embedded 18.4mm × 18.4mm × 4.0mm patch antenna and utilizes the MediaTek new generation GNSS chipset MT3333 that achieves the perfect performance. Designed to be compatible with Quectel GPS L80 module in the compact and unified form factor, it provides a flexible and scalable platform for migrating from GPS to GNSS. This space-saving design makes L86 a perfect module for miniature devices. Adopting LCC package and integrating patch antenna, L86 has exceptional performance both in acquisition and tracking. </p>
-
-</br>
 
 <h1> 
   <p align="center">
