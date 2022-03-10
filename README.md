@@ -62,6 +62,30 @@
 
 
 
+<!-- AÇILIŞ -->
+<h2> 
+  </br>
+  </br>
+  </br>
+  <p align="center">
+  <a href="https://github.com/enesmrcn/PCB-Design/tree/main/iMX6%20Main%20Board"> iMX6 Main Board </a>
+    <br/>
+    <br/>
+    <br/>
+  <a href="https://github.com/enesmrcn/PCB-Design/tree/main/iMX6%20Main%20Board"> <img src="./iMX6 Main Board/Images/Top View 3D.png"> </a>
+
+
+<br/>
+<br/>
+  
+  </p>
+</h2>
+
+<!-- KAPANIŞ -->
+
+
+
+
 
 <!-- AÇILIŞ -->
 <h2> 
