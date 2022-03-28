@@ -1,7 +1,7 @@
 <!-- BAŞLIK -->
 <h1> 
   <p align="center">
-     LM2596-ADJ Buck Converter Breakout Board
+     LM2596 Buck Converter Breakout Board
   </p>
 </h1>
 
@@ -77,5 +77,5 @@
 
 ![GitHub](https://img.shields.io/github/license/enesmrcn/PCB-Design)   
 
-<br/> <i>First Release : 1 March, 2022</i>
-<br/> <i>Last Update : 3 Jan, 2022</i>
+<br/> <i>First Release : 29 March, 2022</i>
+<br/> <i>Last Update : 29 March, 2022</i>
