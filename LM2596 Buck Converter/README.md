@@ -1,7 +1,7 @@
 <!-- BAŞLIK -->
 <h1> 
   <p align="center">
-     LM2596 Buck Converter Breakout Board
+     LM2596 Buck Converter </br> Breakout Board
   </p>
 </h1>
 
