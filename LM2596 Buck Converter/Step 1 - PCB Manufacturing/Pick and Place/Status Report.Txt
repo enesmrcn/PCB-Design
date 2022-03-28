@@ -1,0 +1,11 @@
+Output: Generates pick and place files
+Type  : Pick Place
+From  : Variant [[No Variations]] of Project [LM2596-ADJ Breakout.PrjPcb]
+   Generated File[Pick Place for LM2596ADJ_v2.txt]
+   Generated File[Pick Place for LM2596ADJ_v2.csv]
+
+
+Files Generated   : 2
+Documents Printed : 0
+
+Finished Output Generation At 01:25:56 On 29/03/2022

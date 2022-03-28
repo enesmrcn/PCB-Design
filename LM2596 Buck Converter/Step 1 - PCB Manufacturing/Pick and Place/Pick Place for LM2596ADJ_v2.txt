@@ -1,0 +1,24 @@
+Altium Designer Pick and Place Locations
+C:\Users\Public\Documents\Altium\Projects\LM2596-ADJ Breakout\Project Outputs for LM2596-ADJ Breakout\Pick Place for LM2596ADJ_v2.txt
+
+========================================================================================================================
+File Design Information:
+
+Date:       29/03/22
+Time:       01:25
+Revision:   c068a6ae4eeef9e2cda5188b90a33427e1d191a7
+Variant:    No variations
+Units used: mil
+
+Designator Comment           Layer    Footprint             Center-X(mil) Center-Y(mil) Rotation Description                                                                                 
+C2         MAL214699004E3    TopLayer CAP_ALUM_SMD_10X10X12 1744.094      464.567       270      "220uF 35V ALUM Electrolytic Cap 1012; 146 CTI Series 1500 h; 2000 h; 200000 h"             
+C1         UCL1E681MNL1GS    TopLayer CAP_ALUM_SMD_10X10X12 255.905       496.063       270      "Aluminum Electrolytic Capacitor- 25volts, 680uF SMD, Low Impediance"                       
+C4         CL21B104KACNNNC   TopLayer CAP_CER_0805          409.449       216.535       90       "CAP CER 0.1UF 25V X7R 0805"                                                                
+C3         CL21B104KACNNNC   TopLayer CAP_CER_0805          1125.000      744.095       270      "CAP CER 0.1UF 25V X7R 0805"                                                                
+REG1       LM2596SX-ADJ/NOPB TopLayer LM2596S-5.0/NOPB      717.520       494.094       90       "IC REG BUCK ADJ 3A TO263-5"                                                                
+R2         CRGCQ0805F270R    TopLayer RES_0805              1647.638      823.819       270      "Res Thick Film 0805 270 Ohm 1% 0.125W(1/8W) ±100ppm/C Pad SMD Automotive T/R"              
+R1         RNCP0603FTD1K00   TopLayer RES_0603              1034.449      738.189       90       "Res Thin Film 0603 1K Ohm 1% 0.125W(1/8W) ±100ppm/C Sulfur Resistant Pad SMD T/R"          
+POT1       TC33X-1-103E      TopLayer TC33X-1-103E          1274.114      751.969       270      "Res Trimmer 10K Ohm 25% 1/10W 1(Elec)/1(Mech)Turn (3 X 3.8mm) Foot Print SMD Embossed T/R" 
+L1         B82477G4333M000   TopLayer IND_SMD_12.8X12.8     1245.079      305.118       90       "Inductor Power Shielded Wirewound 33uH 20% 100KHz Ferrite 3A 0.053Ohm DCR T/R"             
+D2         RB050LAM-40TR     TopLayer SOD-128               640.715       98.425        180      "Rectifier Diode Schottky Si 40V 3A 2-Pin PMDT-M T/R"                                       
+D1         CMD17-21VGD/TR8   TopLayer LED_GREEN_0805        1500.984      831.693       90       "LED, Green, SMD 0805, 7.0 mcd, Green Diffused Lens"                                        
