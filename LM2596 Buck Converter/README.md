@@ -55,11 +55,6 @@
 <p align="center">
 <img src="./Images/Bottom View 3D.png"></p>
 
-<br/>
-
-<H4 align="center"> Side View </H4>
-<p align="center">
-<img src="./Images/Side View.png"></p>
 
 <br/>
 
