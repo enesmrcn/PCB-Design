@@ -127,6 +127,30 @@
 
 <!-- KAPANIŞ -->
 
+
+
+<!-- AÇILIŞ -->
+<h2> 
+  </br>
+  </br>
+  </br>
+  <p align="center">
+  <a href="https://github.com/enesmrcn/PCB-Design/tree/main/PSU"> LM2596 Buck Converter </a>
+    <br/>
+    <br/>
+    <br/>
+  <a href="https://github.com/enesmrcn/PCB-Design/tree/main/LM2596%20Buck%20Converter"> <img src="./LM2596 Buck Converter/Images/Top View 3D.png"> </a>
+
+
+<br/>
+  
+  </p>
+</h2>
+
+<!-- KAPANIŞ -->
+
+
+
 <!-- AÇILIŞ -->
 <h2> 
   </br>
