@@ -30,24 +30,26 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : P2
-      File : LM2596ADJ_v2.GP2
+Generating : Bottom Solder
+      File : LM2596ADJ_v2.GBS
 
-    Adding Layer      : P2
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : BL
 
     Adding Layer      : Multi-Layer
 
 
 Used DCodes :
-    D10
-    D42
-    D43
-    D44
+    D34
+    D35
 *************************************************************
 
 *************************************************************
-Generating : Top Pad Master
-      File : LM2596ADJ_v2.GPT
+Generating : Top Solder
+      File : LM2596ADJ_v2.GTS
+
+    Adding Layer      : Top Solder
 
     Adding Layer      : TL
 
@@ -56,105 +58,18 @@ Generating : Top Pad Master
 
 Used DCodes :
     D15
-    D16
-    D17
-    D18
-    D19
-    D20
-    D21
-    D22
-    D23
     D24
-    D36
-    D40
-*************************************************************
-
-*************************************************************
-Generating : Top Overlay
-      File : LM2596ADJ_v2.GTO
-
-    Adding Layer      : Top Overlay
-
-
-Used DCodes :
-    D10
-    D11
-    D12
-    D13
-    D14
-*************************************************************
-
-*************************************************************
-Generating : Top Paste
-      File : LM2596ADJ_v2.GTP
-
-    Adding Layer      : Top Paste
-
-    Adding Layer      : TL
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D15
-    D16
-    D17
-    D18
-    D19
-    D20
-    D21
-    D22
-    D23
-    D24
-*************************************************************
-
-*************************************************************
-Generating : Keep-Out Layer
-      File : LM2596ADJ_v2.GKO
-
-    Adding Layer      : Keep-Out Layer
-
-
-Used DCodes :
-    D37
-*************************************************************
-
-*************************************************************
-Generating : Top Designator
-      File : LM2596ADJ_v2.GM5
-
-    Adding Layer      : Top Designator
-
-
-Used DCodes :
-    D12
-    D45
-    D46
-*************************************************************
-
-*************************************************************
-Generating : Bottom Designator
-      File : LM2596ADJ_v2.GM6
-
-    Adding Layer      : Bottom Designator
-
-
-Used DCodes :
-*************************************************************
-
-*************************************************************
-Generating : P1
-      File : LM2596ADJ_v2.GP1
-
-    Adding Layer      : P1
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D42
-    D43
-    D44
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
 *************************************************************
 
 *************************************************************
@@ -186,10 +101,38 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Top Solder
-      File : LM2596ADJ_v2.GTS
+Generating : P1
+      File : LM2596ADJ_v2.GP1
 
-    Adding Layer      : Top Solder
+    Adding Layer      : P1
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D42
+    D43
+    D44
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : LM2596ADJ_v2.GTO
+
+    Adding Layer      : Top Overlay
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+*************************************************************
+
+*************************************************************
+Generating : Top Pad Master
+      File : LM2596ADJ_v2.GPT
 
     Adding Layer      : TL
 
@@ -198,34 +141,33 @@ Generating : Top Solder
 
 Used DCodes :
     D15
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
     D24
-    D25
-    D26
-    D27
-    D28
-    D29
-    D30
-    D31
-    D32
-    D33
-    D34
-    D35
+    D36
+    D40
 *************************************************************
 
 *************************************************************
-Generating : Bottom Solder
-      File : LM2596ADJ_v2.GBS
+Generating : P2
+      File : LM2596ADJ_v2.GP2
 
-    Adding Layer      : Bottom Solder
-
-    Adding Layer      : BL
+    Adding Layer      : P2
 
     Adding Layer      : Multi-Layer
 
 
 Used DCodes :
-    D34
-    D35
+    D10
+    D42
+    D43
+    D44
 *************************************************************
 
 *************************************************************
@@ -252,6 +194,64 @@ Generating : Bottom Overlay
 Used DCodes :
     D10
     D45
+*************************************************************
+
+*************************************************************
+Generating : Bottom Designator
+      File : LM2596ADJ_v2.GM6
+
+    Adding Layer      : Bottom Designator
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Top Designator
+      File : LM2596ADJ_v2.GM5
+
+    Adding Layer      : Top Designator
+
+
+Used DCodes :
+    D12
+    D45
+    D46
+*************************************************************
+
+*************************************************************
+Generating : Keep-Out Layer
+      File : LM2596ADJ_v2.GKO
+
+    Adding Layer      : Keep-Out Layer
+
+
+Used DCodes :
+    D37
+*************************************************************
+
+*************************************************************
+Generating : Top Paste
+      File : LM2596ADJ_v2.GTP
+
+    Adding Layer      : Top Paste
+
+    Adding Layer      : TL
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
 *************************************************************
 
 *************************************************************

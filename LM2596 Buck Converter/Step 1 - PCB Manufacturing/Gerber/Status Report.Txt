@@ -1,0 +1,28 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of Project [LM2596-ADJ Breakout.PrjPcb]
+   Generated File[LM2596ADJ_v2.GTO]
+   Generated File[LM2596ADJ_v2.GTP]
+   Generated File[LM2596ADJ_v2.GTS]
+   Generated File[LM2596ADJ_v2.GTL]
+   Generated File[LM2596ADJ_v2.GP1]
+   Generated File[LM2596ADJ_v2.GP2]
+   Generated File[LM2596ADJ_v2.GBL]
+   Generated File[LM2596ADJ_v2.GBS]
+   Generated File[LM2596ADJ_v2.GBP]
+   Generated File[LM2596ADJ_v2.GBO]
+   Generated File[LM2596ADJ_v2.GM5]
+   Generated File[LM2596ADJ_v2.GM6]
+   Generated File[LM2596ADJ_v2.GKO]
+   Generated File[LM2596ADJ_v2.GPT]
+   Generated File[LM2596ADJ_v2.GPB]
+   Generated File[LM2596ADJ_v2.GD1]
+   Generated File[LM2596ADJ_v2.GG1]
+   Generated File[LM2596ADJ_v2.EXTREP]
+   Generated File[LM2596ADJ_v2.REP]
+
+
+Files Generated   : 19
+Documents Printed : 0
+
+Finished Output Generation At 11:49:45 On 06/04/2022

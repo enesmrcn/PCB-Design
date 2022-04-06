@@ -4,9 +4,9 @@ C:\Users\Public\Documents\Altium\Projects\LM2596-ADJ Breakout\Project Outputs fo
 ========================================================================================================================
 File Design Information:
 
-Date:       29/03/22
-Time:       01:25
-Revision:   c068a6ae4eeef9e2cda5188b90a33427e1d191a7
+Date:       06/04/22
+Time:       11:51
+Revision:   def0a18c745bac20c63c972f7470cf0d4d8ab959
 Variant:    No variations
 Units used: mil
 
