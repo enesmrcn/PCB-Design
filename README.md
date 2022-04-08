@@ -158,7 +158,7 @@
   </br>
   </br>
   <p align="center">
-  <a href="https://github.com/enesmrcn/PCB-Design/tree/main/PSU"> LP3852-5V LDO Regulator </a>
+  <a href="https://github.com/enesmrcn/PCB-Design/tree/main/PSU"> LP3852 Linear Regulator </a>
     <br/>
     <br/>
     <br/>
