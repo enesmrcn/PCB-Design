@@ -1,7 +1,7 @@
 <!-- BAŞLIK -->
 <h1> 
   <p align="center">
-     Security Board
+    LP3852 Lineer Regulator
   </p>
 </h1>
 
