@@ -33,7 +33,7 @@
 <!-- HAKKINDA -->
 
 <h4> About the Board: </h4> 
-<p> The break-out board has been designed to provide high quality compact board for hobbiests and electronic enthetuastics in their projects </p>
+<p> The break-out board has been designed to provide high quality compact board for hobbiests and electronic enthusiastics in their projects </p>
 
 </br>
 
