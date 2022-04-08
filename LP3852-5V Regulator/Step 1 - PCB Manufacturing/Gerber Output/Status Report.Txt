@@ -1,0 +1,26 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of Project [LP3852 5V Breakout.PrjPcb]
+   Generated File[LP3852.GTO]
+   Generated File[LP3852.GTP]
+   Generated File[LP3852.GTS]
+   Generated File[LP3852.GTL]
+   Generated File[LP3852.GP1]
+   Generated File[LP3852.GP2]
+   Generated File[LP3852.GBL]
+   Generated File[LP3852.GBS]
+   Generated File[LP3852.GBP]
+   Generated File[LP3852.GBO]
+   Generated File[LP3852.GKO]
+   Generated File[LP3852.GPT]
+   Generated File[LP3852.GPB]
+   Generated File[LP3852.GD1]
+   Generated File[LP3852.GG1]
+   Generated File[LP3852.EXTREP]
+   Generated File[LP3852.REP]
+
+
+Files Generated   : 17
+Documents Printed : 0
+
+Finished Output Generation At 00:43:37 On 01/04/2022

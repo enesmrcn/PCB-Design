@@ -1,0 +1,10 @@
+Output: Generates pick and place files
+Type  : Pick Place
+From  : Variant [[No Variations]] of Project [LP3852 5V Breakout.PrjPcb]
+   Generated File[Pick Place for LP3852.txt]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 12:10:41 On 06/04/2022

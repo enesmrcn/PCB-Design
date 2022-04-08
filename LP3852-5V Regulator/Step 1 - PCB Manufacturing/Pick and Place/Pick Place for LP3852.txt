@@ -1,0 +1,24 @@
+Altium Designer Pick and Place Locations
+C:\Users\Public\Documents\Altium\Projects\LP3852 5V Breakout\Project Outputs for LP3852 5V Breakout\Pick Place for LP3852.txt
+
+========================================================================================================================
+File Design Information:
+
+Date:       06/04/22
+Time:       12:10
+Revision:   e9e7ae837588ba808a74fc0fd28a4d509ae9718c
+Variant:    No variations
+Units used: mil
+
+Designator Comment            Layer    Footprint      Center-X(mil) Center-Y(mil) Rotation Description                                                                                                                               
+SJ1        "0603 jumper"      TopLayer RES_0603       976.041       315.901       180      ""                                                                                                                                        
+REG1       LP3852EMP-5.0/NOPB TopLayer SOT223-5_(NDC) 648.779       435.787       90       "1.5-A, 7-V, ultra-low-dropout voltage regulator with power good & enable 5-SOT-223 -40 to 125"                                           
+R3         CRGCQ0805F270R     TopLayer RES_0805       1258.858      481.299       90       "Res Thick Film 0805 270 Ohm 1% 0.125W(1/8W) ±100ppm/C Pad SMD Automotive T/R"                                                            
+R2         CR0805-FX-1503ELF  TopLayer RES_0805       832.677       275.591       270      "Res Thick Film 0805 150K Ohm 1% 1/8W ±100ppm/°C Molded SMD SMD Paper Tape on Plastic Reel"                                               
+R1         RNCP0805FTD10K0    TopLayer RES_0805       410.433       316.929       0        "Res Thin Film 0805 10K Ohm 1% 1/4W ±100ppm/°C Molded SMD Paper T/R"                                                                      
+D1         CMD17-21VRD/TR8    TopLayer LED_RED_0805   1258.858      299.213       90       "LED Uni-Color Red 640nm 2-Pin SMT T/R"                                                                                                   
+C5         CL21B104KACNNNC    TopLayer CAP_CER_0805   699.803       105.315       270      "CAP CER 0.1UF 25V X7R 0805"                                                                                                              
+C4         CL21B104KACNNNC    TopLayer CAP_CER_0805   578.268       110.315       270      "CAP CER 0.1UF 25V X7R 0805"                                                                                                              
+C3         GRM21BR61E106MA73L TopLayer CAP_CER_0805   789.803       105.315       90       "MURATA - GRM21BR61E106MA73L - SMD Multilayer Ceramic Capacitor, 10 µF, 25 V, 0805 [2012 Metric], ± 20%, X5R, GRM Series"                 
+C2         GRM21BR61E106MA73L TopLayer CAP_CER_0805   413.268       110.315       90       "MURATA - GRM21BR61E106MA73L - SMD Multilayer Ceramic Capacitor, 10 µF, 25 V, 0805 [2012 Metric], ± 20%, X5R, GRM Series"                 
+C1         CL21B475KOFNNNE    TopLayer CAP_CER_0805   498.268       110.315       90       "SAMSUNG ELECTRO-MECHANICS - CL21B475KOFNNNE - SMD Multilayer Ceramic Capacitor, 4.7 µF, 16 V, 0805 [2012 Metric], ± 10%, X7R, CL Series" 
