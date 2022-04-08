@@ -162,7 +162,7 @@
     <br/>
     <br/>
     <br/>
-  <a href="https://github.com/enesmrcn/PCB-Design/tree/main/LP3852-5V%20Regulator"> <img src="./LP3852-5V Regulator/Images/Top View 3D.png"> </a>
+  <a href="https://github.com/enesmrcn/PCB-Design/tree/main/LP3852-5V%20Regulator"> <img src="./LP3852-5V Regulator/Images/Side View.png"> </a>
 
 
 <br/>
