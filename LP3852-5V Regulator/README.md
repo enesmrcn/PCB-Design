@@ -17,7 +17,7 @@
                         
 
 
-<h4> Hardware Specs: </h4> 
+<h3> Hardware Specs: </h3> 
 - Input Supply Voltage: 2.5V to 7V </br>
 - Ultra-Low Dropout Voltage </br>
 - Specified Output Current of 1.5 A DC </br>
@@ -32,7 +32,7 @@
 
 <!-- HAKKINDA -->
 
-<h4> About the Board: </h4> 
+<h3> About the Board: </h3> 
 <p> The break-out board has been designed to provide high quality compact board for hobbiests and electronic enthusiastics in their projects </p>
 
 </br>
@@ -48,27 +48,27 @@
                         
 <br/>
 
-<H4 align="center"> Top View </H4>
+<H2 align="center"> Top View </H2>
  <p align="center">
   <img src="./Images/Top View 3D.png"></p>
 
 
 <br/>
 
-<H4 align="center"> Bottom View </H4>
+<H2 align="center"> Bottom View </H2>
 <p align="center">
 <img src="./Images/Bottom View 3D.png"></p>
 
 <br/>
 
-<H4 align="center"> Side View </H4>
+<H3 align="center"> Side View </H3>
 <p align="center">
 <img src="./Images/Side View.png"></p>
 
 <br/>
 
 
-<H4 align="center"> All Layers </H4>
+<H2 align="center"> All Layers </H2>
 <p align="center">
 <img src="./Images/Multilayer View.png"></p>
 
