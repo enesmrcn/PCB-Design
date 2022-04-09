@@ -67,11 +67,6 @@
 
 <br/>
 
-<H4 align="center"> Side View </H4>
-<p align="center">
-<img src="./Images/Side-Bottom View.png"></p>
-
-<br/>
 
 <H4 align="center"> All Layers </H4>
 <p align="center">
