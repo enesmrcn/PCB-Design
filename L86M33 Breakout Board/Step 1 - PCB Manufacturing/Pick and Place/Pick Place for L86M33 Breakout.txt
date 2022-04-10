@@ -4,9 +4,9 @@ C:\Users\Public\Documents\Altium\Projects\L86M33 Breakout\Project Outputs for L8
 ========================================================================================================================
 File Design Information:
 
-Date:       28/02/22
-Time:       13:39
-Revision:   797d03141a6a35ec5eed436c8ae63a23def5df07
+Date:       10/04/22
+Time:       17:11
+Revision:   7fdb01ede3f8b5e9572a2d59d83f2fa979b57846
 Variant:    No variations
 Units used: mil
 
@@ -31,9 +31,9 @@ Q2         BC846B-TP        TopLayer SOT23-3              1981.299      266.732 
 Q1         BC846B-TP        TopLayer SOT23-3              1282.480      146.654       270      "BC846B Series 65 V 100 mA 225 mW NPN Plastic-Encapsulate Transistor - SOT-23-3"             
 J1         M20-9730445      TopLayer HDR_ML_1X4           -35.433       557.874       0        "Headers & Wire Housings 04 SIL VERTICAL PIN HEADER GOLD HT"                                 
 D3         CMD17-21VGD/TR8  TopLayer LED_GREEN_0805       1412.401      184.055       90       "LED, Green, SMD 0805, 7.0 mcd, Green Diffused Lens"                                         
-C7         KR-5R5C474-R     TopLayer KR-5R5C474-R         354.331       307.087       270      "Cap 0.47F 5.5V -20% to 80% 1000 hr (13.5 X 6.5mm) Radial Stacked Coin 5mm 50 Ohm 70°C Bulk" 
-C6         CL10A475KQ8NNNC  TopLayer CAP_CER_0603         723.425       396.654       180      "4.7uF ±10% 6.3V X5R 0603"                                                                   
-C5         CL21B104KACNNNC  TopLayer CAP_CER_0805         716.535       322.835       180      "CAP CER 0.1UF 25V X7R 0805"                                                                 
+C7         KR-5R5C474-R     TopLayer KR-5R5C474-R         344.488       267.716       270      "Cap 0.47F 5.5V -20% to 80% 1000 hr (13.5 X 6.5mm) Radial Stacked Coin 5mm 50 Ohm 70°C Bulk" 
+C6         CL10A475KQ8NNNC  TopLayer CAP_CER_0603         723.731       389.921       180      "4.7uF ±10% 6.3V X5R 0603"                                                                   
+C5         CL21B104KACNNNC  TopLayer CAP_CER_0805         716.535       302.165       180      "CAP CER 0.1UF 25V X7R 0805"                                                                 
 C4         CL21B104KACNNNC  TopLayer CAP_CER_0805         110.236       641.732       180      "CAP CER 0.1UF 25V X7R 0805"                                                                 
 C3         CL10A475KQ8NNNC  TopLayer CAP_CER_0603         110.236       566.929       180      "4.7uF ±10% 6.3V X5R 0603"                                                                   
 C2         CL21B104KACNNNC  TopLayer CAP_CER_0805         795.275       618.110       270      "CAP CER 0.1UF 25V X7R 0805"                                                                 
