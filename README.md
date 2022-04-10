@@ -151,6 +151,30 @@
 
 
 
+
+<!-- AÇILIŞ -->
+<h2> 
+  </br>
+  </br>
+  </br>
+  <p align="center">
+  <a href="https://github.com/enesmrcn/PCB-Design/tree/main/PSU"> LP3852 Linear Regulator </a>
+    <br/>
+    <br/>
+    <br/>
+  <a href="https://github.com/enesmrcn/PCB-Design/tree/main/LP3852-5V%20Regulator"> <img src="./LP3852-5V Regulator/Images/Side View.png"> </a>
+
+
+<br/>
+  
+  </p>
+</h2>
+
+<!-- KAPANIŞ -->
+
+
+
+
 <!-- AÇILIŞ -->
 <h2> 
   </br>
