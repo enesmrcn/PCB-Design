@@ -1,0 +1,245 @@
+*************************************************************
+FileName = SD Card Breakout.GBR
+AutoAperture = True
+*************************************************************
+Generating : Keep-Out Layer
+      File : SD Card Breakout.GKO
+
+    Adding Layer      : Keep-Out Layer
+
+
+Used DCodes :
+    D27
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : SD Card Breakout.GBO
+
+    Adding Layer      : Bottom Overlay
+
+
+Used DCodes :
+    D12
+    D36
+*************************************************************
+
+*************************************************************
+Generating : Bottom Paste
+      File : SD Card Breakout.GBP
+
+    Adding Layer      : Bottom Paste
+
+    Adding Layer      : L4
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Bottom Solder
+      File : SD Card Breakout.GBS
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : L4
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D25
+    D26
+*************************************************************
+
+*************************************************************
+Generating : Top Solder
+      File : SD Card Breakout.GTS
+
+    Adding Layer      : Top Solder
+
+    Adding Layer      : L1
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+*************************************************************
+
+*************************************************************
+Generating : Top Paste
+      File : SD Card Breakout.GTP
+
+    Adding Layer      : Top Paste
+
+    Adding Layer      : L1
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D13
+    D14
+    D15
+    D16
+    D17
+    D18
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : SD Card Breakout.GTO
+
+    Adding Layer      : Top Overlay
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+*************************************************************
+
+*************************************************************
+Generating : Top Pad Master
+      File : SD Card Breakout.GPT
+
+    Adding Layer      : L1
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D13
+    D14
+    D15
+    D16
+    D17
+    D18
+    D29
+    D30
+*************************************************************
+
+*************************************************************
+Generating : Bottom Pad Master
+      File : SD Card Breakout.GPB
+
+    Adding Layer      : L4
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D29
+    D30
+*************************************************************
+
+*************************************************************
+Generating : L4
+      File : SD Card Breakout.GBL
+
+    Adding Layer      : L4
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D27
+    D29
+    D30
+    D31
+*************************************************************
+
+*************************************************************
+Generating : L3
+      File : SD Card Breakout.GP2
+
+    Adding Layer      : L3
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D12
+    D32
+    D33
+    D34
+    D35
+*************************************************************
+
+*************************************************************
+Generating : L2
+      File : SD Card Breakout.GP1
+
+    Adding Layer      : L2
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D32
+    D33
+    D34
+    D35
+*************************************************************
+
+*************************************************************
+Generating : L1
+      File : SD Card Breakout.GTL
+
+    Adding Layer      : L1
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D13
+    D14
+    D15
+    D16
+    D17
+    D18
+    D27
+    D28
+    D29
+    D30
+    D31
+*************************************************************
+
+*************************************************************
+Generating : Drill Drawing
+      File : SD Card Breakout.GD1
+
+    Adding Drill Pair : L1-L4
+
+    Adding Layer      : Drill Drawing
+
+
+Used DCodes :
+    D11
+    D37
+    D38
+*************************************************************
+
+*************************************************************
+Generating : Drill Guide
+      File : SD Card Breakout.GG1
+
+    Adding Drill Pair : L1-L4
+
+    Adding Layer      : Drill Guide
+
+
+Used DCodes :
+    D37
+*************************************************************
+

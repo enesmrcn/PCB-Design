@@ -1,0 +1,25 @@
+Altium Designer Pick and Place Locations
+C:\Users\Public\Documents\Altium\Projects\SD CARD Breakout\Project Outputs for SD CARD Breakout\Pick Place for SD Card Breakout.csv
+
+========================================================================================================================
+File Design Information:
+
+Date:       12/04/22
+Time:       10:57
+Revision:   f48a89a8da83e5ea9255e689bdfb734f25386709
+Variant:    No variations
+Units used: mil
+
+"Designator","Comment","Layer","Footprint","Center-X(mil)","Center-Y(mil)","Rotation","Description"
+"J2","HDR_ML_1X7","TopLayer","HDR_ML_1X7","158.416","559.055","0",""
+"C3","CL21B104KACNNNC","TopLayer","CAP_CER_0805","468.504","835.630","270","CAP CER 0.1UF 25V X7R 0805"
+"R7","RC0603FR-0733RL","TopLayer","RES_0603","406.496","559.055","0","33O ± 1.00% 0.1W ± 100ppm/? 0603"
+"R6","WR06X473JTL","TopLayer","RES_0603","671.260","995.079","0","RES 47K OHM 5% 1/10W 0603"
+"R5","WR06X473JTL","TopLayer","RES_0603","915.354","997.047","0","RES 47K OHM 5% 1/10W 0603"
+"R4","RC0603FR-0733RL","TopLayer","RES_0603","422.835","260.236","0","33O ± 1.00% 0.1W ± 100ppm/? 0603"
+"R3","RC0603FR-0733RL","TopLayer","RES_0603","419.291","360.827","0","33O ± 1.00% 0.1W ± 100ppm/? 0603"
+"R2","WR06X473JTL","TopLayer","RES_0603","874.016","167.323","180","RES 47K OHM 5% 1/10W 0603"
+"R1","WR06X473JTL","TopLayer","RES_0603","702.756","169.291","0","RES 47K OHM 5% 1/10W 0603"
+"J1","KLS1-TF-003","TopLayer","KLS1-TF-003","833.661","575.787","90","Micro SD Card CONN; Push/Push, H1.85mm, SMD with CD Pin"
+"C2","CL21B105KOFNFNE","TopLayer","CAP_CER_0805","385.827","834.646","90","CAP CER 1UF 16V X7R 0805"
+"C1","GRM21BR61E106MA73L","TopLayer","CAP_CER_0805","303.150","834.646","90","MURATA - GRM21BR61E106MA73L - SMD Multilayer Ceramic Capacitor, 10 µF, 25 V, 0805 [2012 Metric], ± 20%, X5R, GRM Series"
