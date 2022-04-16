@@ -9,7 +9,7 @@
 
 <!-- GİRİŞ -->
 
-<p> LM2596-ADJ module is a power supply unit can output adjustable voltage level from up to 40V  </br> This is a 4-Layer PCB designed in Altium </p>
+<p> LD1117-3V3 module is a 12W Low Droupout linear regulator that can output fixed 3V3 from up to 15V  </br> This is a 4-Layer PCB designed in Altium </p>
 
 </br>
 
@@ -21,18 +21,20 @@
 - Low dropout voltage (1 V typ.) </br>
 - Output current up to 800 mA </br>
 - Fixed output voltage of 3.3 V </br>
+- Regulation capacity up to 12W
 - Internal current and thermal limit </br>
 - Supply voltage rejection: 75 dB (typ.) </br>
+- Maximum input voltage of 15V </br>
+- 
 
 
 </br>
 
 <h4> Components: </h4> 
-- LM2596SX-ADJ/NOPB (Regulator)</br>
-- 680UF Aluminyum Capacitor (Input Filter)</br>
-- 220UF Aluminyum Capacitor (Output Filter)</br>
-- 33UF (Inductance)</br>
-- RB050LAM-40TR (Rectifier Diode) </br>
+- LD1117DT33CTR (Regulator)</br>
+- 100nF Ceramic Capacitor (Input Filter)</br>
+- 10uF Ceramic Capacitor (Output Filter)</br>
+- Red Led (Indicator)</br>
 
 
 </br>
@@ -60,7 +62,7 @@
 
 <H4 align="center"> Side View </H4>
 <p align="center">
-<img src="./Images/Side-Bottom View.png"></p>
+<img src="./Images/Side View 3D.png"></p>
 
 <br/>
 
