@@ -1,0 +1,24 @@
+Altium Designer Pick and Place Locations
+C:\Users\Public\Documents\Altium\Projects\LD1117DT33 Breakout\Project Outputs for LD1117DT33 Breakout\Pick Place for LD1117DT33 - Type1.txt
+
+========================================================================================================================
+File Design Information:
+
+Date:       06/04/22
+Time:       12:52
+Revision:   ddf076327f6992bc04548458f58c3d50ccbd40d8
+Variant:    No variations
+Units used: mil
+
+Designator Comment            Layer    Footprint        Center-X(mil) Center-Y(mil) Rotation Description                                                                                                               
+MH4        MH_4.1MMC_2.1MMD   TopLayer MH_4.1MMC_2.1MMD -0.788        -0.788        0        "Hole 4.1mm Diameter 2.1mm Drill NPTH"                                                                                    
+MH3        MH_4.1MMC_2.1MMD   TopLayer MH_4.1MMC_2.1MMD 1235.432      -0.788        0        "Hole 4.1mm Diameter 2.1mm Drill NPTH"                                                                                    
+MH2        MH_4.1MMC_2.1MMD   TopLayer MH_4.1MMC_2.1MMD -0.788        559.251       0        "Hole 4.1mm Diameter 2.1mm Drill NPTH"                                                                                    
+MH1        MH_4.1MMC_2.1MMD   TopLayer MH_4.1MMC_2.1MMD 1235.432      559.251       0        "Hole 4.1mm Diameter 2.1mm Drill NPTH"                                                                                    
+REG1       LD1117DT33CTR      TopLayer DPAK             699.015       183.267       0        "IC REG LDO 3.3V 0.8A DPAK"                                                                                               
+R1         CRGCQ0805F270R     TopLayer RES_0805         313.188       74.015        90       "Res Thick Film 0805 270 Ohm 1% 0.125W(1/8W) ±100ppm/C Pad SMD Automotive T/R"                                            
+D1         CMD17-21VRD/TR8    TopLayer LED_RED_0805     399.802       87.795        270      "LED Uni-Color Red 640nm 2-Pin SMT T/R"                                                                                   
+C4         CL21B104KACNNNC    TopLayer CAP_CER_0805     907.086       36.613        270      "CAP CER 0.1UF 25V X7R 0805"                                                                                              
+C3         CL21B104KACNNNC    TopLayer CAP_CER_0805     987.086       36.023        270      "CAP CER 0.1UF 25V X7R 0805"                                                                                              
+C2         GRM21BR61E106MA73L TopLayer CAP_CER_0805     462.007       270.354       90       "MURATA - GRM21BR61E106MA73L - SMD Multilayer Ceramic Capacitor, 10 µF, 25 V, 0805 [2012 Metric], ± 20%, X5R, GRM Series" 
+C1         GRM21BR61E106MA73L TopLayer CAP_CER_0805     372.007       270.354       90       "MURATA - GRM21BR61E106MA73L - SMD Multilayer Ceramic Capacitor, 10 µF, 25 V, 0805 [2012 Metric], ± 20%, X5R, GRM Series" 

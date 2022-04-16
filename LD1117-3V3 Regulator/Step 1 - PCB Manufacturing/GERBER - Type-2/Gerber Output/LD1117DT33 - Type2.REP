@@ -1,0 +1,279 @@
+*************************************************************
+FileName = LD1117DT33 - Type2.GBR
+AutoAperture = True
+*************************************************************
+Generating : Bottom Layer
+      File : LD1117DT33 - Type2.GBL
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D28
+    D29
+    D30
+*************************************************************
+
+*************************************************************
+Generating : Bottom Pad Master
+      File : LD1117DT33 - Type2.GPB
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D28
+*************************************************************
+
+*************************************************************
+Generating : Top Pad Master
+      File : LD1117DT33 - Type2.GPT
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D13
+    D14
+    D15
+    D16
+    D17
+    D28
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : LD1117DT33 - Type2.GTO
+
+    Adding Layer      : Top Overlay
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+*************************************************************
+
+*************************************************************
+Generating : PWR
+      File : LD1117DT33 - Type2.GP2
+
+    Adding Layer      : PWR
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D27
+    D31
+    D32
+    D33
+*************************************************************
+
+*************************************************************
+Generating : Top Paste
+      File : LD1117DT33 - Type2.GTP
+
+    Adding Layer      : Top Paste
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D13
+    D14
+    D15
+    D16
+    D17
+*************************************************************
+
+*************************************************************
+Generating : Top Solder
+      File : LD1117DT33 - Type2.GTS
+
+    Adding Layer      : Top Solder
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+*************************************************************
+
+*************************************************************
+Generating : Bottom Solder
+      File : LD1117DT33 - Type2.GBS
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D23
+    D24
+*************************************************************
+
+*************************************************************
+Generating : Bottom Component Center
+      File : LD1117DT33 - Type2.GM4
+
+    Adding Layer      : Bottom Component Center
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Top Designator
+      File : LD1117DT33 - Type2.GM5
+
+    Adding Layer      : Top Designator
+
+
+Used DCodes :
+    D10
+    D34
+*************************************************************
+
+*************************************************************
+Generating : Bottom Designator
+      File : LD1117DT33 - Type2.GM6
+
+    Adding Layer      : Bottom Designator
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : GND
+      File : LD1117DT33 - Type2.GP1
+
+    Adding Layer      : GND
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D31
+    D32
+    D33
+*************************************************************
+
+*************************************************************
+Generating : Top Layer
+      File : LD1117DT33 - Type2.GTL
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D13
+    D14
+    D15
+    D16
+    D17
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+*************************************************************
+
+*************************************************************
+Generating : Bottom Paste
+      File : LD1117DT33 - Type2.GBP
+
+    Adding Layer      : Bottom Paste
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : LD1117DT33 - Type2.GBO
+
+    Adding Layer      : Bottom Overlay
+
+
+Used DCodes :
+    D11
+*************************************************************
+
+*************************************************************
+Generating : Keep-Out Layer
+      File : LD1117DT33 - Type2.GKO
+
+    Adding Layer      : Keep-Out Layer
+
+
+Used DCodes :
+    D25
+*************************************************************
+
+*************************************************************
+Generating : Top Component Center
+      File : LD1117DT33 - Type2.GM3
+
+    Adding Layer      : Top Component Center
+
+
+Used DCodes :
+    D10
+*************************************************************
+
+*************************************************************
+Generating : Drill Drawing
+      File : LD1117DT33 - Type2.GD1
+
+    Adding Drill Pair : Top Layer-Bottom Layer
+
+    Adding Layer      : Drill Drawing
+
+
+Used DCodes :
+    D35
+    D36
+*************************************************************
+
+*************************************************************
+Generating : Drill Guide
+      File : LD1117DT33 - Type2.GG1
+
+    Adding Drill Pair : Top Layer-Bottom Layer
+
+    Adding Layer      : Drill Guide
+
+
+Used DCodes :
+    D27
+    D35
+*************************************************************
+

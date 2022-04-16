@@ -1,0 +1,6 @@
+DRC Rules Export File for PCB: C:\Users\Public\Documents\Altium\Projects\LD1117DT33 Breakout\LD1117DT33 - Type3.PcbDoc
+RuleKind=MinimumAnnularRing|RuleName=MinimumAnnularRing|Scope=Board|Minimum=5.91
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=1.97
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=7.00
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=9.00
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
