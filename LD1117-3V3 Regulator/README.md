@@ -25,7 +25,6 @@
 - Internal current and thermal limit </br>
 - Supply voltage rejection: 75 dB (typ.) </br>
 - Maximum input voltage of 15V </br>
-- 
 
 
 </br>
