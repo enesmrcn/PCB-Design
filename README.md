@@ -198,6 +198,32 @@
 
 
 
+
+
+
+<!-- AÇILIŞ -->
+<h2> 
+  </br>
+  </br>
+  </br>
+  <p align="center">
+     <a href="https://github.com/enesmrcn/PCB-Design/tree/main/LD1117-3V3%20Regulator"> LD1117 Linear Regulator </a>
+    <br/>
+    <br/>
+    <br/>
+  <a href="https://github.com/enesmrcn/PCB-Design/tree/main/LD1117-3V3%20Regulator"> <img src="./Neo-7M GNSS Evaluation Board/Images/Side View 3D.png"> </a>
+
+
+<br/>
+  
+  </p>
+</h2>
+
+<!-- KAPANIŞ -->
+
+
+
+
 <!-- AÇILIŞ -->
 <h2> 
   </br>
