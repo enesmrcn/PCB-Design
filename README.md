@@ -150,19 +150,17 @@
 <!-- KAPANIŞ -->
 
 
-
-
 <!-- AÇILIŞ -->
 <h2> 
   </br>
   </br>
   </br>
   <p align="center">
-  <a href="https://github.com/enesmrcn/PCB-Design/tree/main/PSU"> LP3852 Linear Regulator </a>
+     <a href="https://github.com/enesmrcn/PCB-Design/tree/main/LD1117-3V3%20Regulator"> LD1117 Linear Regulator </a>
     <br/>
     <br/>
     <br/>
-  <a href="https://github.com/enesmrcn/PCB-Design/tree/main/LP3852-5V%20Regulator"> <img src="./LP3852-5V Regulator/Images/Side View.png"> </a>
+  <a href="https://github.com/enesmrcn/PCB-Design/tree/main/LD1117-3V3%20Regulator"> <img src="./LD1117-3V3 Regulator/Images/Side View 3D.png"> </a>
 
 
 <br/>
@@ -171,7 +169,6 @@
 </h2>
 
 <!-- KAPANIŞ -->
-
 
 
 
@@ -200,18 +197,17 @@
 
 
 
-
 <!-- AÇILIŞ -->
 <h2> 
   </br>
   </br>
   </br>
   <p align="center">
-     <a href="https://github.com/enesmrcn/PCB-Design/tree/main/LD1117-3V3%20Regulator"> LD1117 Linear Regulator </a>
+  <a href="https://github.com/enesmrcn/PCB-Design/tree/main/PSU"> LP3852 Linear Regulator </a>
     <br/>
     <br/>
     <br/>
-  <a href="https://github.com/enesmrcn/PCB-Design/tree/main/LD1117-3V3%20Regulator"> <img src="./Neo-7M GNSS Evaluation Board/Images/Side View 3D.png"> </a>
+  <a href="https://github.com/enesmrcn/PCB-Design/tree/main/LP3852-5V%20Regulator"> <img src="./LP3852-5V Regulator/Images/Side View.png"> </a>
 
 
 <br/>
