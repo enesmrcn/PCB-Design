@@ -47,7 +47,12 @@
 
 
 <!-- GÖRSELLER -->
-                        
+
+<br/>
+
+<H4 align="center"> Fabricated PCB </H4>
+<p align="center">
+<img src="./Images/Manufactured - Top View 3D.jpg"></p>
                         
 <br/>
 
