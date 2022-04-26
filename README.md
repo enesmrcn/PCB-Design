@@ -98,6 +98,7 @@
     <br/>
     <br/>
   <a href="https://github.com/enesmrcn/PCB-Design/tree/main/L86M33%20Breakout%20Board"> <img src="./L86M33 Breakout Board/Images/Top View 3D.png"> </a>
+  <a href="https://github.com/enesmrcn/PCB-Design/tree/main/L86M33%20Breakout%20Board"> <img src="./L86M33 Breakout Board/Images/Manufactured - Top View 3D.jpg"> </a>
   
 <br/>
 <br/>
