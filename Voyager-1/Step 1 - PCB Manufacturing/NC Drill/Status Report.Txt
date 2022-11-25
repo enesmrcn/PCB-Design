@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [Voyager.PrjPcb]
+   Generated File[Voyager.TXT]
+   Generated File[Voyager.LDP]
+   Generated File[Voyager.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 16:20:20 On 25/10/2022
