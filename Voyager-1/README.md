@@ -48,11 +48,6 @@
 
 <!-- GÖRSELLER -->
 
-<br/>
-
-<H4 align="center"> Fabricated PCB </H4>
-<p align="center">
-<img src="./Images/Manufactured - Top View 3D.jpg"></p>
                         
 <br/>
 
@@ -65,7 +60,7 @@
 
 <H4 align="center"> Bottom View </H4>
 <p align="center">
-<img src="./Images/Bottom View 3D.png"></p>
+<img src="./Images/Bottom View Copper 3D.png"></p>
 
 <br/>
 
