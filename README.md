@@ -39,6 +39,33 @@
 
 
 
+
+
+<!-- AÇILIŞ -->
+<h2> 
+  </br>
+  </br>
+  </br>
+  <p align="center">
+  <a href="https://github.com/enesmrcn/PCB-Design/tree/main/Voyager-1"> Voyager-1 Control Board </a>
+    <br/>
+    <br/>
+    <br/>
+  <a href="https://github.com/enesmrcn/PCB-Design/tree/main/Voyager-1"> <img src="./Voyager-1/Images/Top View 3D.png"> </a>
+
+
+<br/>
+  
+  </p>
+</h2>
+
+<!-- KAPANIŞ -->
+
+
+
+
+
+
 <!-- AÇILIŞ -->
 <h2> 
   </br>
@@ -58,6 +85,7 @@
 </h2>
 
 <!-- KAPANIŞ -->
+
 
 
 
@@ -217,31 +245,6 @@
 </h2>
 
 <!-- KAPANIŞ -->
-
-
-
-
-
-<!-- AÇILIŞ -->
-<h2> 
-  </br>
-  </br>
-  </br>
-  <p align="center">
-  <a href="https://github.com/enesmrcn/PCB-Design/tree/main/Voyager-1"> Voyager-1 Control Board </a>
-    <br/>
-    <br/>
-    <br/>
-  <a href="https://github.com/enesmrcn/PCB-Design/tree/main/Voyager-1"> <img src="./Voyager-1/Images/Top View 3D.png"> </a>
-
-
-<br/>
-  
-  </p>
-</h2>
-
-<!-- KAPANIŞ -->
-
 
 
 
