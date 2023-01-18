@@ -232,7 +232,7 @@
     <br/>
     <br/>
     <br/>
-  <a href="https://github.com/enesmrcn/PCB-Design/tree/main/Voyager-1"> <img src="./Voyager-1/Images/Top View 3D-2.png"> </a>
+  <a href="https://github.com/enesmrcn/PCB-Design/tree/main/Voyager-1"> <img src="./Voyager-1/Images/Top View 3D.png"> </a>
 
 
 <br/>
