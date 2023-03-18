@@ -44,7 +44,7 @@
 
 <br/>
 
-<H4 align="center"> Top View </H4>
+<H4 align="center"> Assembled-1 </H4>
  <p align="center">
   <img src="./Images/Assembled-1.jpg"></p>
 
@@ -52,7 +52,7 @@
 
 <br/>
 
-<H4 align="center"> Top View </H4>
+<H4 align="center"> Assembled-2 </H4>
  <p align="center">
   <img src="./Images/Assembled-2.jpg"></p>
 
@@ -60,18 +60,9 @@
 
 <br/>
 
-<H4 align="center"> Top View </H4>
+<H4 align="center"> Assembled-3 </H4>
  <p align="center">
   <img src="./Images/Assembled-3.jpg"></p>
-
-
-
-<br/>
-
-<H4 align="center"> Top View </H4>
- <p align="center">
-  <img src="./Images/Top View 3D.png"></p>
-
 
                         
 <br/>
