@@ -52,7 +52,7 @@
 
 <H4 align="center"> Fabricated PCB </H4>
 <p align="center">
-<img src="./Images/Manufactured - Top View 3D.jpg"></p>
+<img src="./Images/Assembled - Top View 3D.jpg"></p>
                         
 <br/>
 

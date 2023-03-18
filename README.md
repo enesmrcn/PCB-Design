@@ -126,7 +126,7 @@
     <br/>
     <br/>
   <a href="https://github.com/enesmrcn/PCB-Design/tree/main/L86M33%20Breakout%20Board"> <img src="./L86M33 Breakout Board/Images/Top View 3D.png"> </a>
-  <a href="https://github.com/enesmrcn/PCB-Design/tree/main/L86M33%20Breakout%20Board"> <img src="./L86M33 Breakout Board/Images/Manufactured - Top View 3D.jpg"> </a>
+  <a href="https://github.com/enesmrcn/PCB-Design/tree/main/L86M33%20Breakout%20Board"> <img src="./L86M33 Breakout Board/Images/Assembled - Top View 3D.jpg"> </a>
   
 <br/>
 <br/>
@@ -135,6 +135,9 @@
 </h2>
 
 <!-- KAPANIŞ -->
+
+
+
 
 <!-- AÇILIŞ -->
 <h2> 
@@ -164,19 +167,22 @@
   </br>
   </br>
   <p align="center">
-  <a href="https://github.com/enesmrcn/PCB-Design/tree/main/PSU"> LM2596 Buck Converter </a>
+      <a href="https://github.com/enesmrcn/PCB-Design/tree/main/LM2596%20Buck%20Converter"> LM2596 Buck Converter </a>
     <br/>
     <br/>
     <br/>
   <a href="https://github.com/enesmrcn/PCB-Design/tree/main/LM2596%20Buck%20Converter"> <img src="./LM2596 Buck Converter/Images/Top View 3D.png"> </a>
-
-
+  <a href="https://github.com/enesmrcn/PCB-Design/tree/main/L86M33%20Breakout%20Board"> <img src="./LM2596 Buck Converter/Images/Assembled-3"> </a>
+  
+<br/>
 <br/>
   
   </p>
 </h2>
 
 <!-- KAPANIŞ -->
+
+
 
 
 <!-- AÇILIŞ -->
@@ -198,6 +204,7 @@
 </h2>
 
 <!-- KAPANIŞ -->
+
 
 
 
