@@ -49,7 +49,7 @@
     <br/>
     <br/>
     <img src="./Images/Voyager_v1.0_Top View 3D.png"> </a>
-    <img src="./Images/Voyager_v1.0 - Assembled.png"> </a>
+    <img src="./Images/Voyager_v1.0 - Assembled.jpg"> </a>
     <br/>
   </p>
 </h2>
@@ -65,7 +65,7 @@
     <br/>
     <br/>
     <br/>
-    <img src="./Images/Voyager_v2.0_Top View 3D.png"> </a>
+    <img src="./Images/Voyager_v2.0 - Top View 3D.png"> </a>
     <img src="./Images/Voyager_v2.0 - Assembled.png"> </a>
     <br/>
   </p>
