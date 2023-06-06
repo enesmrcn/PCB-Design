@@ -66,7 +66,6 @@
     <br/>
     <br/>
     <img src="./Images/Voyager_v2.0 - Top View 3D.png"> </a>
-    <img src="./Images/Voyager_v2.0 - Assembled.png"> </a>
     <br/>
   </p>
 </h2>
@@ -81,14 +80,14 @@
   </br>
   <p align="center">
   DRV8462D Breakout Module
-    <br/>
-    <br/>
-    <br/>
+  <br/>
+  <br/>
+  <br/>
 
-    <img src="./Images/Voyager_v2.0 - Top View 3D.png">
+  <img src="./Images/DRV8462D - Top View 3D.png">
 
-   <br/>
-   <br/>
+  <br/>
+  <br/>
   </p>
 </h2>
 <!-- KAPANIŞ -->
