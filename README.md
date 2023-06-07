@@ -82,13 +82,11 @@
   </br>
   <p align="center">
   DRV8462D 
- ~ Breakout Module ~
+  <br/> ~ Breakout Module ~
     <br/>
     <br/>
     <br/>
-
-    <img src="./Images/Voyager_v2.0 - Top View 3D.png">
-
+    <img src="./Images/DRV8462D - Top View 3D.png">
    <br/>
    <br/>
   </p>
