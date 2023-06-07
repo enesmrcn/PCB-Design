@@ -45,6 +45,7 @@
   </br>
   </br>
   <p align="center">
+    Voyager_v1.0 Industrial Control Board
     <br/>
     <br/>
     <br/>
@@ -62,6 +63,7 @@
   </br>
   </br>
   <p align="center">
+    Voyager_v2.0 Industrial Control Board
     <br/>
     <br/>
     <br/>
@@ -116,48 +118,20 @@
 
 
 
-
 <!-- AÇILIŞ -->
-<h2> 
-  </br>
-  </br>
-  </br>
-  <p align="center">
-  DRV8462D Breakout Module
-    <br/>
-    <br/>
-    <br/>
-
-    <img src="./Images/DRV8462D - Top View 3D.png">
-
-   <br/>
-   <br/>
-  
-  </p>
-</h2>
-
-<!-- KAPANIŞ -->
-
-
-
-<!-- AÇILIŞ -->
-<h2> 
-  </br>
-  </br>
-  </br>
-  <p align="center">
-     <a href="https://github.com/enesmrcn/PCB-Design/tree/main/Security%20Board"> Security Board </a>
-    <br/>
-    <br/>
-    <br/>
-  <a href="https://github.com/enesmrcn/PCB-Design/tree/main/Security%20Board"> <img src="./Images/Security Board - Top View 3D.png"> </a>
-
-
-<br/>
-  
-  </p>
-</h2>
-
+	<h2> 
+		</br>
+  		</br>
+  		</br>
+		<p align="center">
+			<a href="https://github.com/enesmrcn/PCB-Design/tree/main/Security%20Board"> Security Board </a>
+			<br/>
+			<br/>
+			<br/>
+			<a href="https://github.com/enesmrcn/PCB-Design/tree/main/Security%20Board"> <img src="./Images/Security Board - Top View 3D.png"> </a>
+			<br/>
+		</p>
+	</h2>
 <!-- KAPANIŞ -->
 
 
