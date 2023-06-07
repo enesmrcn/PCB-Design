@@ -20,7 +20,7 @@
     <br/>
     <br/>
   <p align="center">
-     <a href="https://github.com/enesmrcn/PCB-Design/tree/main/SatWare"> SatWare (Satellite Control Hardware) </a>
+     <a href="https://github.com/enesmrcn/PCB-Design/tree/main/SatWare"> SatWare </n> Satellite Control Hardware </a>
     <br/>
     <br/>
     <br/>
@@ -50,7 +50,7 @@
     <br/>
     <br/>
     <img src="./Images/Voyager_v1.0_Top View 3D.png"> </a>
-    <img src="./Images/Voyager_v1.0 - Assembled.jpg"> </a>
+    <img src="./Images/Voyager_v1.0 - Assembled.png"> </a>
     <br/>
   </p>
 </h2>
@@ -67,7 +67,8 @@
     <br/>
     <br/>
     <br/>
-    <img src="./Images/Voyager_v2.0 - Top View 3D.png"> </a>
+    <img src="./Images/Voyager_v2.0_Top View 3D.png"> </a>
+    <img src="./Images/Voyager_v2.0 - Assembled.png"> </a>
     <br/>
   </p>
 </h2>
@@ -82,14 +83,14 @@
   </br>
   <p align="center">
   DRV8462D Breakout Module
-  <br/>
-  <br/>
-  <br/>
+    <br/>
+    <br/>
+    <br/>
 
-  <img src="./Images/DRV8462D - Top View 3D.png">
+    <img src="./Images/Voyager_v2.0 - Top View 3D.png">
 
-  <br/>
-  <br/>
+   <br/>
+   <br/>
   </p>
 </h2>
 <!-- KAPANIŞ -->
