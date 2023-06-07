@@ -83,7 +83,7 @@
   </br>
   <p align="center">
   DRV8462D 
-  <br/> ~ Breakout Module ~
+  <br/> ~ Step Driver ~
     <br/>
     <br/>
     <br/>
@@ -104,7 +104,7 @@
   </br>
   <p align="center">
   BNO086 
-  <br/> ~ Breakout Module ~
+  <br/> ~ 3-Axis Industrial GYRO Module ~
     <br/>
     <br/>
     <br/>
@@ -169,7 +169,8 @@
   </br>
   </br>
   <p align="center">
-      <a href="https://github.com/enesmrcn/PCB-Design/tree/main/L86M33%20Breakout%20Board"> L86M33 Breakout Board </a>
+      <a href="https://github.com/enesmrcn/PCB-Design/tree/main/L86M33%20Breakout%20Board"> L86M33 </a> 
+      <a href="https://github.com/enesmrcn/PCB-Design/tree/main/L86M33%20Breakout%20Board"> GNSS Module </a>
     <br/>
     <br/>
     <br/>
@@ -193,7 +194,8 @@
   </br>
   </br>
   <p align="center">
-     <a href="https://github.com/enesmrcn/PCB-Design/tree/main/Neo-7M%20GNSS%20Evaluation%20Board"> Neo-7M GNSS Evaluation Board </a>
+     <a href="https://github.com/enesmrcn/PCB-Design/tree/main/Neo-7M%20GNSS%20Evaluation%20Board"> Neo-7M </a>
+     <a href="https://github.com/enesmrcn/PCB-Design/tree/main/Neo-7M%20GNSS%20Evaluation%20Board"> GNSS Module </a>
     <br/>
     <br/>
     <br/>
@@ -215,7 +217,8 @@
   </br>
   </br>
   <p align="center">
-      <a href="https://github.com/enesmrcn/PCB-Design/tree/main/LM2596%20Buck%20Converter"> LM2596 Buck Converter </a>
+      <a href="https://github.com/enesmrcn/PCB-Design/tree/main/LM2596%20Buck%20Converter"> LM2596 </a>
+      <a href="https://github.com/enesmrcn/PCB-Design/tree/main/LM2596%20Buck%20Converter"> Buck Converter </a>
     <br/>
     <br/>
     <br/>
@@ -239,7 +242,8 @@
   </br>
   </br>
   <p align="center">
-     <a href="https://github.com/enesmrcn/PCB-Design/tree/main/LD1117-3V3%20Regulator"> LD1117 Linear Regulator </a>
+     <a href="https://github.com/enesmrcn/PCB-Design/tree/main/LD1117-3V3%20Regulator"> LD1117 </a>
+     <a href="https://github.com/enesmrcn/PCB-Design/tree/main/LD1117-3V3%20Regulator"> Linear Regulator </a>
     <br/>
     <br/>
     <br/>
@@ -263,7 +267,7 @@
   </br>
   </br>
   <p align="center">
-  <a href="https://github.com/enesmrcn/PCB-Design/tree/main/PSU"> Micro SD Breakout Board </a>
+  <a href="https://github.com/enesmrcn/PCB-Design/tree/main/PSU"> Micro-SD Breakout Board </a>
     <br/>
     <br/>
     <br/>
@@ -287,7 +291,8 @@
   </br>
   </br>
   <p align="center">
-  <a href="https://github.com/enesmrcn/PCB-Design/tree/main/PSU"> LP3852 Linear Regulator </a>
+  <a href="https://github.com/enesmrcn/PCB-Design/tree/main/PSU"> LP3852</a>
+  <a href="https://github.com/enesmrcn/PCB-Design/tree/main/PSU"> Linear Regulator </a>
     <br/>
     <br/>
     <br/>
