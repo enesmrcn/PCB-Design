@@ -102,11 +102,12 @@
   </br>
   </br>
   <p align="center">
-  BNO086 Breakout Module
+  BNO086 
+  <br/> ~ Breakout Module ~
     <br/>
     <br/>
     <br/>
-    <img src="./Images/iMX6 - Top View 3D.png">
+    <img src="./Images/BNO086 - Top View 3D.png">
    <br/>
    <br/>
   </p>
