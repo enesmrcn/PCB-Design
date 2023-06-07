@@ -23,7 +23,8 @@
      <a href="https://github.com/enesmrcn/PCB-Design/tree/main/SatWare"> ~ Satellite Control Hardware ~ </a>
     <br/>
     <br/>
-  <img src="./Images/SatWare - Top View 3D.png">
+   <img src="./Images/SatWare - Top View 3D.png">
+   <img src="./Images/SatWare - Assembled.jpg">
 
 
 <br/>
