@@ -16,8 +16,6 @@
 
 <!-- AÇILIŞ -->
 <h2> 
-  <br/>
-    <br/>
     <br/>
   <p align="center">
      <a href="https://github.com/enesmrcn/PCB-Design/tree/main/SatWare"> SatWare </a>
@@ -39,14 +37,14 @@
 
 
 
-
 <!-- AÇILIŞ -->
 <h2> 
   </br>
   </br>
   </br>
   <p align="center">
-    Voyager_v1.0 Industrial Control Board
+    Voyager_v1.0 
+    <br/> Industrial Control Board
     <br/>
     <br/>
     <br/>
