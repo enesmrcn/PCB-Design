@@ -20,8 +20,9 @@
     <br/>
     <br/>
   <p align="center">
-     <a href="https://github.com/enesmrcn/PCB-Design/tree/main/SatWare"> SatWare </n> Satellite Control Hardware </a>
+     <a href="https://github.com/enesmrcn/PCB-Design/tree/main/SatWare"> SatWare </a>
     <br/>
+     <a href="https://github.com/enesmrcn/PCB-Design/tree/main/SatWare"> Satellite Control Hardware </a>
     <br/>
     <br/>
   <img src="./Images/SatWare - Top View 3D.png">
