@@ -44,7 +44,7 @@
   </br>
   <p align="center">
     Voyager_v1.0 
-    <br/> Industrial Control Board
+    <br/> ~ Industrial Control Board ~
     <br/>
     <br/>
     <br/>
@@ -81,7 +81,8 @@
   </br>
   </br>
   <p align="center">
-  DRV8462D Breakout Module
+  DRV8462D 
+ ~ Breakout Module ~
     <br/>
     <br/>
     <br/>
