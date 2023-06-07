@@ -119,17 +119,17 @@
 
 <!-- AÇILIŞ -->
 	<h2> 
-		</br>
-  		</br>
-  		</br>
-		<p align="center">
-			<a href="https://github.com/enesmrcn/PCB-Design/tree/main/Security%20Board"> Security Board </a>
-			<br/>
-			<br/>
-			<br/>
-			<a href="https://github.com/enesmrcn/PCB-Design/tree/main/Security%20Board"> <img src="./Images/Security Board - Top View 3D.png"> </a>
-			<br/>
-		</p>
+	</br>
+  	</br>
+  	</br>
+	<p align="center">
+		<a href="https://github.com/enesmrcn/PCB-Design/tree/main/Security%20Board"> Home Security Board </a>
+		<br/>
+		<br/>
+		<br/>
+		<a href="https://github.com/enesmrcn/PCB-Design/tree/main/Security%20Board"> <img src="./Images/Security Board - Top View 3D.png"> </a>
+		<br/>
+	</p>
 	</h2>
 <!-- KAPANIŞ -->
 
