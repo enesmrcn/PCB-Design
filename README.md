@@ -170,6 +170,7 @@
   </br>
   <p align="center">
       <a href="https://github.com/enesmrcn/PCB-Design/tree/main/L86M33%20Breakout%20Board"> L86M33 </a> 
+      <br/>
       <a href="https://github.com/enesmrcn/PCB-Design/tree/main/L86M33%20Breakout%20Board"> GNSS Module </a>
     <br/>
     <br/>
@@ -195,6 +196,7 @@
   </br>
   <p align="center">
      <a href="https://github.com/enesmrcn/PCB-Design/tree/main/Neo-7M%20GNSS%20Evaluation%20Board"> Neo-7M </a>
+     <br/>
      <a href="https://github.com/enesmrcn/PCB-Design/tree/main/Neo-7M%20GNSS%20Evaluation%20Board"> GNSS Module </a>
     <br/>
     <br/>
@@ -218,6 +220,7 @@
   </br>
   <p align="center">
       <a href="https://github.com/enesmrcn/PCB-Design/tree/main/LM2596%20Buck%20Converter"> LM2596 </a>
+      <br/>
       <a href="https://github.com/enesmrcn/PCB-Design/tree/main/LM2596%20Buck%20Converter"> Buck Converter </a>
     <br/>
     <br/>
@@ -243,6 +246,7 @@
   </br>
   <p align="center">
      <a href="https://github.com/enesmrcn/PCB-Design/tree/main/LD1117-3V3%20Regulator"> LD1117 </a>
+     <br/>
      <a href="https://github.com/enesmrcn/PCB-Design/tree/main/LD1117-3V3%20Regulator"> Linear Regulator </a>
     <br/>
     <br/>
@@ -292,6 +296,7 @@
   </br>
   <p align="center">
   <a href="https://github.com/enesmrcn/PCB-Design/tree/main/PSU"> LP3852</a>
+  <br/>
   <a href="https://github.com/enesmrcn/PCB-Design/tree/main/PSU"> Linear Regulator </a>
     <br/>
     <br/>
