@@ -62,12 +62,12 @@
   </br>
   </br>
   <p align="center">
-    Voyager_v2.0 Industrial Control Board
+    Voyager_v2.0 
+    <br/> ~ Industrial Control Board ~
     <br/>
     <br/>
     <br/>
-    <img src="./Images/Voyager_v2.0_Top View 3D.png"> </a>
-    <img src="./Images/Voyager_v2.0 - Assembled.png"> </a>
+    <img src="./Images/Voyager_v2.0 - Top View 3D.png"> </a>
     <br/>
   </p>
 </h2>
